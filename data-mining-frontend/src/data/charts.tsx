@@ -1,0 +1,41 @@
+export const Data_DelayedOnTime = [
+  {
+    id: 1,
+    name: "Delayed",
+    amount: 1459001,
+    colour: "#ff6161",
+  },
+  {
+    id: 1,
+    name: "On-Time",
+    amount: 5966228,
+    colour: "#5acc78",
+  },
+];
+
+export const Data_DelayedMonthly = [
+  { MONTH: 1, IS_LATE: false, count: 433823 },
+  { MONTH: 1, IS_LATE: true, count: 124892 },
+  { MONTH: 2, IS_LATE: false, count: 468106 },
+  { MONTH: 2, IS_LATE: true, count: 80323 },
+  { MONTH: 3, IS_LATE: false, count: 499470 },
+  { MONTH: 3, IS_LATE: true, count: 122610 },
+  { MONTH: 4, IS_LATE: false, count: 504226 },
+  { MONTH: 4, IS_LATE: true, count: 110114 },
+  { MONTH: 5, IS_LATE: false, count: 481483 },
+  { MONTH: 5, IS_LATE: true, count: 156211 },
+  { MONTH: 6, IS_LATE: false, count: 487527 },
+  { MONTH: 6, IS_LATE: true, count: 153852 },
+  { MONTH: 7, IS_LATE: false, count: 470280 },
+  { MONTH: 7, IS_LATE: true, count: 184521 },
+  { MONTH: 8, IS_LATE: false, count: 503016 },
+  { MONTH: 8, IS_LATE: true, count: 142015 },
+  { MONTH: 9, IS_LATE: false, count: 528874 },
+  { MONTH: 9, IS_LATE: true, count: 88166 },
+  { MONTH: 10, IS_LATE: false, count: 566252 },
+  { MONTH: 10, IS_LATE: true, count: 82970 },
+  { MONTH: 11, IS_LATE: false, count: 527248 },
+  { MONTH: 11, IS_LATE: true, count: 83637 },
+  { MONTH: 12, IS_LATE: false, count: 495923 },
+  { MONTH: 12, IS_LATE: true, count: 129690 },
+];
