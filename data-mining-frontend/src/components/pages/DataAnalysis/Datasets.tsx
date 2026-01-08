@@ -1,94 +1,99 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+import { Datasets_Data } from "../../../data/datasets_data";
 
 export function Datasets() {
-  const container = {
-    borderStyle: "solid",
-    borderWidth: "0px 0px 1px 0px",
-    borderBottom: "2px solid black",
-    fontFamily: "Inter",
-    paddingLeft: "50px",
+
+
+  const render_source_table = (item: any) => {
+    return (<><h3 className="text-2xl font-bold py-2">{item.fullName}</h3>
+            <p className="mb-2">{item.description}</p>
+            <p className="mb-2">{item.rows_info}</p>
+            <p className="mb-2">{item.columns_info}</p>
+            <div className="h-90 overflow-y-auto center w-[65vw] mb-2">
+              <table className="table-fixed w-full ">
+                <thead className="sticky top-0">
+                  <tr className="bg-gray-400">
+                    <th className="p-0.5">Name</th>
+                    <th className="p-0.5">Description</th>
+                    <th className="p-0.5">Example</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {item.columns?.map((row: any)=>{
+                  return  (<tr className="odd:bg-white even:bg-gray-200">
+                    <td className="p-0.5 pl-3 border-r-2 border-gray-400 ">{row.name}</td>
+                    <td className="p-0.5 pl-3 border-r-2 border-gray-400">{row.desc}</td>
+                    <td className="p-0.5 pl-3">{row.example}</td>
+                  </tr>)
+                })}
+                </tbody>
+              </table>
+              
+            </div>
+            <i>
+              <a href={item.source} target="_blank" className="font-medium text-fg-brand text-blue-600 hover:underline visited:text-purple-600" >Click here to view source</a>
+            </i></>);
   };
 
-  const smalltitle = {
-    textAlign: "center" as "center",
-    fontSize:"24px",
-    fontWeight:"bold",
-    marginTop:"10px"
+  const render_final_table = (item: any) => {
+    return (<><h3 className="text-2xl font-bold py-2">{item.fullName}</h3>
+            <p className="mb-2">{item.description}</p>
+            <p className="mb-2">{item.rows_info}</p>
+            <p className="mb-2">{item.columns_info}</p>
+            <div className="h-90 overflow-y-auto center w-[90vw] mb-2">
+              <table className="table-fixed w-full ">
+                <thead className="sticky top-0">
+                  <tr className="bg-gray-400">
+                    <th className="p-0.5">Name</th>
+                    <th className="p-0.5">Description</th>
+                    <th className="p-0.5">Example</th>
+                    <th className="p-0.5">Missing Count</th>
+                    <th className="p-0.5">Source</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {item.columns?.map((row: any)=>{
+                  return  (<tr className="odd:bg-white even:bg-gray-200">
+                    <td className="p-0.5 pl-3 border-r-2 border-gray-400 ">{row.name}</td>
+                    <td className="p-0.5 pl-3 border-r-2 border-gray-400">{row.desc}</td>
+                    <td className="p-0.5 pl-3 border-r-2 border-gray-400">{row.example}</td>
+                    <td className="p-0.5 pl-3 border-r-2 border-gray-400 text-right pr-2">{row.missing_count.toLocaleString()}</td>
+                    <td className="p-0.5 pl-3">{row.source}</td>
+                  </tr>)
+                })}
+                </tbody>
+              </table>
+              
+            </div>
+            <p>
+              <i>
+                <a href={item.source} target="_blank" className="font-medium text-fg-brand text-blue-600 hover:underline visited:text-purple-600" >Click here download our datasets</a>
+              </i>
+            </p>
+            </>);
   };
-
-  const smallertitle = {
-    fontSize:"20px",
-    fontWeight:"bold",
-    margin:"20px 0 15px"
-  }
-
-  const paragraphBreak = {
-    marginBottom:"15px"
-  }
-
-  const datasetInfo = [
-    {
-      tabName: "Flights",
-      fullName: "Bureau of Transportation Statistics Flight Delays",
-      source: "https://transtats.bts.gov/PREZIP/",
-      description:
-        "Has flight delays information for all domestic U.S. flights from airlines who hold at least 0.5% domestic market share.",
-    },
-    {
-      tabName: "Airports",
-      fullName: "Open Airports Database",
-      source: "https://github.com/open-aviation-data/airports",
-      description:
-        "Has a list of airports including the IATA and ICAO codes which are needed to join Flights and Weather datasets",
-    },
-    {
-      tabName: "Stations",
-      fullName: "NCEI Weather Stations for Global Hourly",
-      source: "https://www.ncei.noaa.gov/pub/data/noaa/isd-history.txt",
-      description: "Text file containing weather stations with airport codes.",
-    },
-    {
-      tabName: "Weather",
-      fullName: "NCEI Weather Global Hourly",
-      source:
-        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly",
-      description:
-        "Weather data API that can be used to request hourly weather data for every airport in the flights dataset. Can join on the nearest weather report to the schedule departure time. (Potentially also for arrivals).",
-    },
-    {
-      tabName: "Aircraft",
-      fullName: "Federal Aviation Administration Aircraft Registry",
-      source:
-        "https://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/releasable_aircraft_download",
-
-      description: "Can get the model from the tail number.",
-    },
-  ];
 
   return (
-    <div style={container}>
-      <h2 style={smalltitle}>Our Datasets</h2>
+    <div className="pl-10 border-b-2 border-black">
+      <h2 className="text-2xl font-bold text-center py-2">Our Datasets</h2>
       <Tabs>
         <TabList>
-          {datasetInfo.map((item) => (
+          {Datasets_Data.map((item) => (
             <Tab>{item.tabName}</Tab>
           ))}
         </TabList>
 
-        {datasetInfo.map((item) => (
+        {Datasets_Data.map((item) => (
           <TabPanel>
-            
-            <h3 style={smallertitle}>{item.fullName}</h3>
-            <p style={paragraphBreak}>{item.description}</p>
-            <i>
-              <a href={item.source}>Click here to view source</a>
-            </i>
+
+            { item.type == "Source" ? render_source_table(item) : render_final_table(item)}
+
           </TabPanel>
         ))}
       </Tabs>
       <br></br>
-      <br></br>
+
     </div>
   );
 }

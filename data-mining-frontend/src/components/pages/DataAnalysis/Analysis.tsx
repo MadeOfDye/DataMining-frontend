@@ -99,7 +99,7 @@ export function Analysis() {
             width={300}
             height={300}
             options={{
-              maintainAspectRatio: false,
+              maintainAspectRatio: true,
               plugins: {
                 title: {
                   display: true,
@@ -118,7 +118,7 @@ export function Analysis() {
             width={300}
             height={300}
             options={{
-              maintainAspectRatio: false,
+              maintainAspectRatio: true,
               indexAxis: "y",
               scales: {
                 x: {
