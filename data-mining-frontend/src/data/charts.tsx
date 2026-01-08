@@ -39,3 +39,20 @@ export const Data_DelayedMonthly = [
   { MONTH: 12, IS_LATE: false, count: 495923 },
   { MONTH: 12, IS_LATE: true, count: 129690 },
 ];
+
+export const Data_DelayedDayOfWeek = [
+  { DAYOFWEEK: "Mon", IS_LATE: false, count: 904529 },
+  { DAYOFWEEK: "Mon", IS_LATE: true, count: 220337 },
+  { DAYOFWEEK: "Tue", IS_LATE: false, count: 850650 },
+  { DAYOFWEEK: "Tue", IS_LATE: true, count: 173223 },
+  { DAYOFWEEK: "Wed", IS_LATE: false, count: 846708 },
+  { DAYOFWEEK: "Wed", IS_LATE: true, count: 176160 },
+  { DAYOFWEEK: "Thur", IS_LATE: false, count: 869733 },
+  { DAYOFWEEK: "Thur", IS_LATE: true, count: 221629 },
+  { DAYOFWEEK: "Fri", IS_LATE: false, count: 862437 },
+  { DAYOFWEEK: "Fri", IS_LATE: true, count: 242439 },
+  { DAYOFWEEK: "Sat", IS_LATE: false, count: 772378 },
+  { DAYOFWEEK: "Sat", IS_LATE: true, count: 188498 },
+  { DAYOFWEEK: "Sun", IS_LATE: false, count: 859793 },
+  { DAYOFWEEK: "Sun", IS_LATE: true, count: 236715 },
+];

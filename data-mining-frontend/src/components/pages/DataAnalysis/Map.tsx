@@ -5,20 +5,6 @@ import data from "../../../data/airport_info.json";
 import { Tooltip } from "react-tooltip";
 
 export function Map() {
-  const container = {
-    borderStyle: "solid",
-    borderWidth: "0px 0px 1px 0px",
-    borderBottom: "2px solid black",
-    fontFamily: "Inter",
-    paddingLeft: "50px",
-  };
-
-  const smalltitle = {
-    textAlign: "center" as "center",
-    fontSize:"24px",
-    fontWeight:"bold",
-    marginTop:"10px"
-  };
 
   const states = (topojson.feature(
     usaMapData as any,
@@ -46,8 +32,8 @@ export function Map() {
     });
 
   return (
-    <div style={container}>
-      <h2 style={smalltitle}>Map Explorer</h2>
+    <div className="pl-10 border-b-2 border-black">
+      <h2 className="text-2xl font-bold text-center py-3 pb-5" >Map Explorer</h2>
       <svg viewBox="0 0 975 610">
         <g fill="lightgrey" stroke="white" strokeWidth="1">
           {states.map((state: GeoPermissibleObjects) => (
