@@ -1,0 +1,2874 @@
+[
+    {
+        "airport_code": "ABE",
+        "airport_name": "Lehigh Valley International Airport",
+        "lat": 40.651773,
+        "lon": -75.442797,
+        "late_pct": 16.0,
+        "count": 4615
+    },
+    {
+        "airport_code": "ABI",
+        "airport_name": "Abilene Regional Airport",
+        "lat": 32.4113006592,
+        "lon": -99.6819000244,
+        "late_pct": 15.3,
+        "count": 1741
+    },
+    {
+        "airport_code": "ABQ",
+        "airport_name": "Albuquerque International Sunport",
+        "lat": 35.040199,
+        "lon": -106.609001,
+        "late_pct": 16.8,
+        "count": 24998
+    },
+    {
+        "airport_code": "ABR",
+        "airport_name": "Aberdeen Regional Airport",
+        "lat": 45.4491004944,
+        "lon": -98.4217987061,
+        "late_pct": 16.3,
+        "count": 722
+    },
+    {
+        "airport_code": "ABY",
+        "airport_name": "Southwest Georgia Regional Airport",
+        "lat": 31.532946,
+        "lon": -84.196215,
+        "late_pct": 18.6,
+        "count": 758
+    },
+    {
+        "airport_code": "ACK",
+        "airport_name": "Nantucket Memorial Airport",
+        "lat": 41.25310135,
+        "lon": -70.06020355,
+        "late_pct": 19.8,
+        "count": 1815
+    },
+    {
+        "airport_code": "ACT",
+        "airport_name": "Waco Regional Airport",
+        "lat": 31.6112995148,
+        "lon": -97.2304992676,
+        "late_pct": 20.9,
+        "count": 1060
+    },
+    {
+        "airport_code": "ACV",
+        "airport_name": "California Redwood Coast-Humboldt County Airport",
+        "lat": 40.978101,
+        "lon": -124.109,
+        "late_pct": 19.3,
+        "count": 1701
+    },
+    {
+        "airport_code": "ACY",
+        "airport_name": "Atlantic City International Airport",
+        "lat": 39.4575996399,
+        "lon": -74.5772018433,
+        "late_pct": 18.3,
+        "count": 2983
+    },
+    {
+        "airport_code": "ADK",
+        "airport_name": "Adak Airport",
+        "lat": 51.883564,
+        "lon": -176.642783,
+        "late_pct": 17.7,
+        "count": 96
+    },
+    {
+        "airport_code": "ADQ",
+        "airport_name": "Kodiak Airport",
+        "lat": 57.75,
+        "lon": -152.4940033,
+        "late_pct": 13.9,
+        "count": 799
+    },
+    {
+        "airport_code": "AEX",
+        "airport_name": "Alexandria International Airport",
+        "lat": 31.3274,
+        "lon": -92.549797,
+        "late_pct": 16.4,
+        "count": 1931
+    },
+    {
+        "airport_code": "AGS",
+        "airport_name": "Augusta Regional At Bush Field",
+        "lat": 33.3699,
+        "lon": -81.9645,
+        "late_pct": 18.5,
+        "count": 4939
+    },
+    {
+        "airport_code": "AKN",
+        "airport_name": "King Salmon Airport",
+        "lat": 58.677845,
+        "lon": -156.651965,
+        "late_pct": 12.3,
+        "count": 463
+    },
+    {
+        "airport_code": "ALB",
+        "airport_name": "Albany International Airport",
+        "lat": 42.748298645,
+        "lon": -73.8016967773,
+        "late_pct": 17.3,
+        "count": 15537
+    },
+    {
+        "airport_code": "ALO",
+        "airport_name": "Waterloo Regional Airport",
+        "lat": 42.5570983887,
+        "lon": -92.4002990723,
+        "late_pct": 22.9,
+        "count": 655
+    },
+    {
+        "airport_code": "ALW",
+        "airport_name": "Walla Walla Regional Airport",
+        "lat": 46.09489822,
+        "lon": -118.288002,
+        "late_pct": 8.0,
+        "count": 697
+    },
+    {
+        "airport_code": "AMA",
+        "airport_name": "Rick Husband Amarillo International Airport",
+        "lat": 35.219398,
+        "lon": -101.706001,
+        "late_pct": 15.4,
+        "count": 5833
+    },
+    {
+        "airport_code": "ANC",
+        "airport_name": "Ted Stevens Anchorage International Airport",
+        "lat": 61.1744,
+        "lon": -149.996002,
+        "late_pct": 15.3,
+        "count": 22229
+    },
+    {
+        "airport_code": "APN",
+        "airport_name": "Alpena County Regional Airport",
+        "lat": 45.0780983,
+        "lon": -83.56030273,
+        "late_pct": 17.6,
+        "count": 609
+    },
+    {
+        "airport_code": "ART",
+        "airport_name": "Watertown International Airport",
+        "lat": 43.9919013977,
+        "lon": -76.021697998,
+        "late_pct": 11.7,
+        "count": 647
+    },
+    {
+        "airport_code": "ASE",
+        "airport_name": "Aspen-Pitkin Co\/Sardy Field",
+        "lat": 39.22320175,
+        "lon": -106.8690033,
+        "late_pct": 29.7,
+        "count": 7307
+    },
+    {
+        "airport_code": "ATL",
+        "airport_name": "Hartsfield Jackson Atlanta International Airport",
+        "lat": 33.6367,
+        "lon": -84.428101,
+        "late_pct": 19.0,
+        "count": 338366
+    },
+    {
+        "airport_code": "ATW",
+        "airport_name": "Appleton International Airport",
+        "lat": 44.2580986023,
+        "lon": -88.5190963745,
+        "late_pct": 17.7,
+        "count": 7278
+    },
+    {
+        "airport_code": "AUS",
+        "airport_name": "Austin Bergstrom International Airport",
+        "lat": 30.197535,
+        "lon": -97.662015,
+        "late_pct": 21.8,
+        "count": 85111
+    },
+    {
+        "airport_code": "AVL",
+        "airport_name": "Asheville Regional Airport",
+        "lat": 35.436199,
+        "lon": -82.541801,
+        "late_pct": 21.9,
+        "count": 12681
+    },
+    {
+        "airport_code": "AVP",
+        "airport_name": "Wilkes Barre Scranton International Airport",
+        "lat": 41.3385009766,
+        "lon": -75.7233963013,
+        "late_pct": 17.0,
+        "count": 2974
+    },
+    {
+        "airport_code": "AZA",
+        "airport_name": "Phoenix\u2013Mesa Gateway Airport",
+        "lat": 33.3078,
+        "lon": -111.654999,
+        "late_pct": 13.2,
+        "count": 5827
+    },
+    {
+        "airport_code": "AZO",
+        "airport_name": "Kalamazoo Battle Creek International Airport",
+        "lat": 42.2349014282,
+        "lon": -85.5521011353,
+        "late_pct": 16.4,
+        "count": 1871
+    },
+    {
+        "airport_code": "BDL",
+        "airport_name": "Bradley International Airport",
+        "lat": 41.93851,
+        "lon": -72.688066,
+        "late_pct": 18.5,
+        "count": 23256
+    },
+    {
+        "airport_code": "BET",
+        "airport_name": "Bethel Airport",
+        "lat": 60.77980042,
+        "lon": -161.8379974,
+        "late_pct": 23.0,
+        "count": 814
+    },
+    {
+        "airport_code": "BFF",
+        "airport_name": "Western Neb. Rgnl\/William B. Heilig Airport",
+        "lat": 41.87400055,
+        "lon": -103.5960007,
+        "late_pct": 11.6,
+        "count": 610
+    },
+    {
+        "airport_code": "BFL",
+        "airport_name": "Meadows Field",
+        "lat": 35.433601,
+        "lon": -119.056999,
+        "late_pct": 12.5,
+        "count": 2654
+    },
+    {
+        "airport_code": "BGM",
+        "airport_name": "Greater Binghamton\/Edwin A Link field",
+        "lat": 42.20869827,
+        "lon": -75.97979736,
+        "late_pct": 10.2,
+        "count": 354
+    },
+    {
+        "airport_code": "BGR",
+        "airport_name": "Bangor International Airport",
+        "lat": 44.8074,
+        "lon": -68.828102,
+        "late_pct": 15.4,
+        "count": 4981
+    },
+    {
+        "airport_code": "BHM",
+        "airport_name": "Birmingham-Shuttlesworth International Airport",
+        "lat": 33.562901,
+        "lon": -86.753502,
+        "late_pct": 17.4,
+        "count": 18942
+    },
+    {
+        "airport_code": "BIH",
+        "airport_name": "Eastern Sierra Regional Airport",
+        "lat": 37.3731002808,
+        "lon": -118.363998413,
+        "late_pct": 28.2,
+        "count": 252
+    },
+    {
+        "airport_code": "BIL",
+        "airport_name": "Billings Logan International Airport",
+        "lat": 45.807701,
+        "lon": -108.542999,
+        "late_pct": 12.0,
+        "count": 5300
+    },
+    {
+        "airport_code": "BIS",
+        "airport_name": "Bismarck Municipal Airport",
+        "lat": 46.7727012634,
+        "lon": -100.7460021973,
+        "late_pct": 16.1,
+        "count": 3927
+    },
+    {
+        "airport_code": "BJI",
+        "airport_name": "Bemidji Regional Airport",
+        "lat": 47.50939941,
+        "lon": -94.93370056,
+        "late_pct": 16.5,
+        "count": 723
+    },
+    {
+        "airport_code": "BLI",
+        "airport_name": "Bellingham International Airport",
+        "lat": 48.7928009033,
+        "lon": -122.5380020142,
+        "late_pct": 13.6,
+        "count": 2522
+    },
+    {
+        "airport_code": "BLV",
+        "airport_name": "Scott AFB\/Midamerica Airport",
+        "lat": 38.5452,
+        "lon": -89.835197,
+        "late_pct": 24.4,
+        "count": 1066
+    },
+    {
+        "airport_code": "BMI",
+        "airport_name": "Central Illinois Regional Airport at Bloomington-Normal",
+        "lat": 40.4771,
+        "lon": -88.915901,
+        "late_pct": 15.5,
+        "count": 2526
+    },
+    {
+        "airport_code": "BNA",
+        "airport_name": "Nashville International Airport",
+        "lat": 36.1245002747,
+        "lon": -86.6781997681,
+        "late_pct": 19.5,
+        "count": 99403
+    },
+    {
+        "airport_code": "BOI",
+        "airport_name": "Boise Air Terminal\/Gowen Field",
+        "lat": 43.5644,
+        "lon": -116.223,
+        "late_pct": 13.7,
+        "count": 26884
+    },
+    {
+        "airport_code": "BOS",
+        "airport_name": "Logan International Airport",
+        "lat": 42.3643,
+        "lon": -71.005203,
+        "late_pct": 19.5,
+        "count": 142382
+    },
+    {
+        "airport_code": "BPT",
+        "airport_name": "Jack Brooks Regional Airport",
+        "lat": 29.9508,
+        "lon": -94.020699,
+        "late_pct": 12.2,
+        "count": 715
+    },
+    {
+        "airport_code": "BQK",
+        "airport_name": "Brunswick Golden Isles Airport",
+        "lat": 31.2588005066,
+        "lon": -81.4664993286,
+        "late_pct": 18.0,
+        "count": 793
+    },
+    {
+        "airport_code": "BQN",
+        "airport_name": "Rafael Hern\u00e1ndez International Airport",
+        "lat": 18.4949,
+        "lon": -67.129402,
+        "late_pct": 25.0,
+        "count": 2402
+    },
+    {
+        "airport_code": "BRD",
+        "airport_name": "Brainerd Lakes Regional Airport",
+        "lat": 46.402861,
+        "lon": -94.129727,
+        "late_pct": 13.6,
+        "count": 645
+    },
+    {
+        "airport_code": "BRO",
+        "airport_name": "Brownsville South Padre Island International Airport",
+        "lat": 25.9067993164,
+        "lon": -97.4259033203,
+        "late_pct": 13.3,
+        "count": 3203
+    },
+    {
+        "airport_code": "BRW",
+        "airport_name": "Wiley Post Will Rogers Memorial Airport",
+        "lat": 71.285402,
+        "lon": -156.766008,
+        "late_pct": 25.5,
+        "count": 392
+    },
+    {
+        "airport_code": "BTM",
+        "airport_name": "Bert Mooney Airport",
+        "lat": 45.9547996521,
+        "lon": -112.4970016479,
+        "late_pct": 5.8,
+        "count": 690
+    },
+    {
+        "airport_code": "BTR",
+        "airport_name": "Baton Rouge Metropolitan Airport",
+        "lat": 30.533199,
+        "lon": -91.149597,
+        "late_pct": 16.5,
+        "count": 6462
+    },
+    {
+        "airport_code": "BTV",
+        "airport_name": "Burlington International Airport",
+        "lat": 44.4719009399,
+        "lon": -73.1532974243,
+        "late_pct": 14.5,
+        "count": 8835
+    },
+    {
+        "airport_code": "BUF",
+        "airport_name": "Buffalo Niagara International Airport",
+        "lat": 42.94049835,
+        "lon": -78.73220062,
+        "late_pct": 17.2,
+        "count": 23901
+    },
+    {
+        "airport_code": "BUR",
+        "airport_name": "Bob Hope Airport",
+        "lat": 34.197703,
+        "lon": -118.356378,
+        "late_pct": 18.3,
+        "count": 30452
+    },
+    {
+        "airport_code": "BWI",
+        "airport_name": "Baltimore\/Washington International Thurgood Marshall Airport",
+        "lat": 39.1754,
+        "lon": -76.668297,
+        "late_pct": 27.3,
+        "count": 97495
+    },
+    {
+        "airport_code": "BZN",
+        "airport_name": "Gallatin Field",
+        "lat": 45.77750015,
+        "lon": -111.1529999,
+        "late_pct": 17.0,
+        "count": 11107
+    },
+    {
+        "airport_code": "CAE",
+        "airport_name": "Columbia Metropolitan Airport",
+        "lat": 33.938801,
+        "lon": -81.119499,
+        "late_pct": 14.5,
+        "count": 10204
+    },
+    {
+        "airport_code": "CAK",
+        "airport_name": "Akron Canton Regional Airport",
+        "lat": 40.9160995483,
+        "lon": -81.442199707,
+        "late_pct": 18.9,
+        "count": 3428
+    },
+    {
+        "airport_code": "CDC",
+        "airport_name": "Cedar City Regional Airport",
+        "lat": 37.7010002136,
+        "lon": -113.0989990234,
+        "late_pct": 10.1,
+        "count": 624
+    },
+    {
+        "airport_code": "CDV",
+        "airport_name": "Merle K (Mudhole) Smith Airport",
+        "lat": 60.491798,
+        "lon": -145.477997,
+        "late_pct": 16.1,
+        "count": 704
+    },
+    {
+        "airport_code": "CHA",
+        "airport_name": "Chattanooga Metropolitan Airport (Lovell Field)",
+        "lat": 35.035301,
+        "lon": -85.203796,
+        "late_pct": 17.5,
+        "count": 8217
+    },
+    {
+        "airport_code": "CHO",
+        "airport_name": "Charlottesville Albemarle Airport",
+        "lat": 38.1385993958,
+        "lon": -78.4529037476,
+        "late_pct": 13.0,
+        "count": 6588
+    },
+    {
+        "airport_code": "CHS",
+        "airport_name": "Charleston International Airport",
+        "lat": 32.898602,
+        "lon": -80.040497,
+        "late_pct": 17.4,
+        "count": 25825
+    },
+    {
+        "airport_code": "CID",
+        "airport_name": "The Eastern Iowa Airport",
+        "lat": 41.884701,
+        "lon": -91.7108,
+        "late_pct": 18.1,
+        "count": 8381
+    },
+    {
+        "airport_code": "CIU",
+        "airport_name": "Chippewa County International Airport",
+        "lat": 46.2508010864,
+        "lon": -84.4723968506,
+        "late_pct": 18.8,
+        "count": 717
+    },
+    {
+        "airport_code": "CKB",
+        "airport_name": "North Central West Virginia Airport",
+        "lat": 39.2966003418,
+        "lon": -80.2281036377,
+        "late_pct": 33.2,
+        "count": 202
+    },
+    {
+        "airport_code": "CLE",
+        "airport_name": "Cleveland Hopkins International Airport",
+        "lat": 41.4117012024,
+        "lon": -81.8498001099,
+        "late_pct": 17.0,
+        "count": 42572
+    },
+    {
+        "airport_code": "CLL",
+        "airport_name": "Easterwood Field",
+        "lat": 30.58860016,
+        "lon": -96.36380005,
+        "late_pct": 17.7,
+        "count": 1092
+    },
+    {
+        "airport_code": "CLT",
+        "airport_name": "Charlotte Douglas International Airport",
+        "lat": 35.2140007019,
+        "lon": -80.9430999756,
+        "late_pct": 23.9,
+        "count": 248569
+    },
+    {
+        "airport_code": "CMH",
+        "airport_name": "John Glenn Columbus International Airport",
+        "lat": 39.998001,
+        "lon": -82.891899,
+        "late_pct": 15.6,
+        "count": 43398
+    },
+    {
+        "airport_code": "CMI",
+        "airport_name": "University of Illinois Willard Airport",
+        "lat": 40.03919983,
+        "lon": -88.27809906,
+        "late_pct": 17.1,
+        "count": 1571
+    },
+    {
+        "airport_code": "CMX",
+        "airport_name": "Houghton County Memorial Airport",
+        "lat": 47.1683998108,
+        "lon": -88.4890975952,
+        "late_pct": 23.0,
+        "count": 699
+    },
+    {
+        "airport_code": "CNY",
+        "airport_name": "Canyonlands Field",
+        "lat": 38.75500107,
+        "lon": -109.7549973,
+        "late_pct": 10.3,
+        "count": 29
+    },
+    {
+        "airport_code": "COD",
+        "airport_name": "Yellowstone Regional Airport",
+        "lat": 44.520198822,
+        "lon": -109.024002075,
+        "late_pct": 20.3,
+        "count": 893
+    },
+    {
+        "airport_code": "COS",
+        "airport_name": "City of Colorado Springs Municipal Airport",
+        "lat": 38.805801,
+        "lon": -104.700996,
+        "late_pct": 16.6,
+        "count": 12793
+    },
+    {
+        "airport_code": "COU",
+        "airport_name": "Columbia Regional Airport",
+        "lat": 38.8181,
+        "lon": -92.219597,
+        "late_pct": 21.7,
+        "count": 2082
+    },
+    {
+        "airport_code": "CPR",
+        "airport_name": "Casper-Natrona County International Airport",
+        "lat": 42.908001,
+        "lon": -106.463997,
+        "late_pct": 14.5,
+        "count": 2387
+    },
+    {
+        "airport_code": "CRP",
+        "airport_name": "Corpus Christi International Airport",
+        "lat": 27.770399,
+        "lon": -97.501198,
+        "late_pct": 15.2,
+        "count": 5651
+    },
+    {
+        "airport_code": "CRW",
+        "airport_name": "Yeager Airport",
+        "lat": 38.3731,
+        "lon": -81.593201,
+        "late_pct": 21.4,
+        "count": 3385
+    },
+    {
+        "airport_code": "CSG",
+        "airport_name": "Columbus Metropolitan Airport",
+        "lat": 32.5163002014,
+        "lon": -84.9389038086,
+        "late_pct": 15.5,
+        "count": 979
+    },
+    {
+        "airport_code": "CVG",
+        "airport_name": "Cincinnati Northern Kentucky International Airport",
+        "lat": 39.048801,
+        "lon": -84.667801,
+        "late_pct": 16.4,
+        "count": 43368
+    },
+    {
+        "airport_code": "CWA",
+        "airport_name": "Central Wisconsin Airport",
+        "lat": 44.7775993347,
+        "lon": -89.6668014526,
+        "late_pct": 15.2,
+        "count": 1661
+    },
+    {
+        "airport_code": "CYS",
+        "airport_name": "Cheyenne Regional Jerry Olson Field",
+        "lat": 41.15570068,
+        "lon": -104.8119965,
+        "late_pct": 9.6,
+        "count": 665
+    },
+    {
+        "airport_code": "DAB",
+        "airport_name": "Daytona Beach International Airport",
+        "lat": 29.179899,
+        "lon": -81.058098,
+        "late_pct": 14.7,
+        "count": 2815
+    },
+    {
+        "airport_code": "DAL",
+        "airport_name": "Dallas Love Field",
+        "lat": 32.847099,
+        "lon": -96.851799,
+        "late_pct": 24.4,
+        "count": 71740
+    },
+    {
+        "airport_code": "DAY",
+        "airport_name": "James M Cox Dayton International Airport",
+        "lat": 39.902401,
+        "lon": -84.219398,
+        "late_pct": 14.3,
+        "count": 9931
+    },
+    {
+        "airport_code": "DCA",
+        "airport_name": "Ronald Reagan Washington National Airport",
+        "lat": 38.8521,
+        "lon": -77.037697,
+        "late_pct": 18.9,
+        "count": 140579
+    },
+    {
+        "airport_code": "DDC",
+        "airport_name": "Dodge City Regional Airport",
+        "lat": 37.7634010315,
+        "lon": -99.9655990601,
+        "late_pct": 15.6,
+        "count": 604
+    },
+    {
+        "airport_code": "DEC",
+        "airport_name": "Decatur Airport",
+        "lat": 39.8345985413,
+        "lon": -88.8656997681,
+        "late_pct": 19.2,
+        "count": 760
+    },
+    {
+        "airport_code": "DEN",
+        "airport_name": "Denver International Airport",
+        "lat": 39.8616981506,
+        "lon": -104.672996521,
+        "late_pct": 22.3,
+        "count": 308823
+    },
+    {
+        "airport_code": "DFW",
+        "airport_name": "Dallas Fort Worth International Airport",
+        "lat": 32.896801,
+        "lon": -97.038002,
+        "late_pct": 26.7,
+        "count": 308918
+    },
+    {
+        "airport_code": "DHN",
+        "airport_name": "Dothan Regional Airport",
+        "lat": 31.3213005066,
+        "lon": -85.4496002197,
+        "late_pct": 12.7,
+        "count": 758
+    },
+    {
+        "airport_code": "DIK",
+        "airport_name": "Dickinson Theodore Roosevelt Regional Airport",
+        "lat": 46.7974014282,
+        "lon": -102.802001953,
+        "late_pct": 10.1,
+        "count": 654
+    },
+    {
+        "airport_code": "DLG",
+        "airport_name": "Dillingham Airport",
+        "lat": 59.04470062,
+        "lon": -158.5050049,
+        "late_pct": 14.0,
+        "count": 436
+    },
+    {
+        "airport_code": "DLH",
+        "airport_name": "Duluth International Airport",
+        "lat": 46.842098,
+        "lon": -92.193604,
+        "late_pct": 14.8,
+        "count": 2210
+    },
+    {
+        "airport_code": "DRO",
+        "airport_name": "Durango La Plata County Airport",
+        "lat": 37.1515007019,
+        "lon": -107.753997803,
+        "late_pct": 16.2,
+        "count": 3945
+    },
+    {
+        "airport_code": "DSM",
+        "airport_name": "Des Moines International Airport",
+        "lat": 41.534,
+        "lon": -93.663101,
+        "late_pct": 16.9,
+        "count": 15940
+    },
+    {
+        "airport_code": "DTW",
+        "airport_name": "Detroit Metropolitan Wayne County Airport",
+        "lat": 42.2123985291,
+        "lon": -83.3534011841,
+        "late_pct": 17.7,
+        "count": 131238
+    },
+    {
+        "airport_code": "DVL",
+        "airport_name": "Devils Lake Regional Airport",
+        "lat": 48.11420059,
+        "lon": -98.90879822,
+        "late_pct": 13.2,
+        "count": 644
+    },
+    {
+        "airport_code": "EAR",
+        "airport_name": "Kearney Regional Airport",
+        "lat": 40.727001,
+        "lon": -99.006798,
+        "late_pct": 13.7,
+        "count": 102
+    },
+    {
+        "airport_code": "EAT",
+        "airport_name": "Pangborn Memorial Airport",
+        "lat": 47.3988990784,
+        "lon": -120.207000732,
+        "late_pct": 11.0,
+        "count": 724
+    },
+    {
+        "airport_code": "EAU",
+        "airport_name": "Chippewa Valley Regional Airport",
+        "lat": 44.8657989502,
+        "lon": -91.4842987061,
+        "late_pct": 24.1,
+        "count": 29
+    },
+    {
+        "airport_code": "ECP",
+        "airport_name": "Northwest Florida Beaches International Airport",
+        "lat": 30.357106,
+        "lon": -85.795414,
+        "late_pct": 19.9,
+        "count": 9301
+    },
+    {
+        "airport_code": "EGE",
+        "airport_name": "Eagle County Regional Airport",
+        "lat": 39.64260101,
+        "lon": -106.9179993,
+        "late_pct": 22.0,
+        "count": 3737
+    },
+    {
+        "airport_code": "EKO",
+        "airport_name": "Elko Regional Airport",
+        "lat": 40.8249015808,
+        "lon": -115.7919998169,
+        "late_pct": 4.7,
+        "count": 364
+    },
+    {
+        "airport_code": "ELM",
+        "airport_name": "Elmira Corning Regional Airport",
+        "lat": 42.1599006653,
+        "lon": -76.8916015625,
+        "late_pct": 20.7,
+        "count": 999
+    },
+    {
+        "airport_code": "ELP",
+        "airport_name": "El Paso International Airport",
+        "lat": 31.80719948,
+        "lon": -106.3779984,
+        "late_pct": 16.9,
+        "count": 19558
+    },
+    {
+        "airport_code": "ERI",
+        "airport_name": "Erie International Tom Ridge Field",
+        "lat": 42.083127,
+        "lon": -80.173867,
+        "late_pct": 10.6,
+        "count": 969
+    },
+    {
+        "airport_code": "ESC",
+        "airport_name": "Delta County Airport",
+        "lat": 45.7226982117,
+        "lon": -87.0936965942,
+        "late_pct": 14.4,
+        "count": 645
+    },
+    {
+        "airport_code": "EUG",
+        "airport_name": "Mahlon Sweet Field",
+        "lat": 44.1245994568,
+        "lon": -123.2119979858,
+        "late_pct": 16.8,
+        "count": 8428
+    },
+    {
+        "airport_code": "EVV",
+        "airport_name": "Evansville Regional Airport",
+        "lat": 38.0369987488,
+        "lon": -87.5324020386,
+        "late_pct": 13.5,
+        "count": 3355
+    },
+    {
+        "airport_code": "EWN",
+        "airport_name": "Coastal Carolina Regional Airport",
+        "lat": 35.0730018616,
+        "lon": -77.0429000854,
+        "late_pct": 13.3,
+        "count": 1922
+    },
+    {
+        "airport_code": "EWR",
+        "airport_name": "Newark Liberty International Airport",
+        "lat": 40.692501,
+        "lon": -74.168701,
+        "late_pct": 20.6,
+        "count": 138916
+    },
+    {
+        "airport_code": "EYW",
+        "airport_name": "Key West International Airport",
+        "lat": 24.556101,
+        "lon": -81.759598,
+        "late_pct": 24.3,
+        "count": 7680
+    },
+    {
+        "airport_code": "FAI",
+        "airport_name": "Fairbanks International Airport",
+        "lat": 64.81510162,
+        "lon": -147.8560028,
+        "late_pct": 14.5,
+        "count": 5273
+    },
+    {
+        "airport_code": "FAR",
+        "airport_name": "Hector International Airport",
+        "lat": 46.9207000732,
+        "lon": -96.8158035278,
+        "late_pct": 16.8,
+        "count": 6868
+    },
+    {
+        "airport_code": "FAT",
+        "airport_name": "Fresno Yosemite International Airport",
+        "lat": 36.776199,
+        "lon": -119.718002,
+        "late_pct": 17.6,
+        "count": 11881
+    },
+    {
+        "airport_code": "FAY",
+        "airport_name": "Fayetteville Regional Airport - Grannis Field",
+        "lat": 34.991199,
+        "lon": -78.880302,
+        "late_pct": 13.4,
+        "count": 3059
+    },
+    {
+        "airport_code": "FCA",
+        "airport_name": "Glacier Park International Airport",
+        "lat": 48.3105010986,
+        "lon": -114.2559967041,
+        "late_pct": 15.5,
+        "count": 4912
+    },
+    {
+        "airport_code": "FLG",
+        "airport_name": "Flagstaff Pulliam International Airport",
+        "lat": 35.1385,
+        "lon": -111.670998,
+        "late_pct": 13.9,
+        "count": 1838
+    },
+    {
+        "airport_code": "FLL",
+        "airport_name": "Fort Lauderdale Hollywood International Airport",
+        "lat": 26.072599,
+        "lon": -80.152702,
+        "late_pct": 26.3,
+        "count": 90121
+    },
+    {
+        "airport_code": "FLO",
+        "airport_name": "Florence Regional Airport",
+        "lat": 34.1853981018,
+        "lon": -79.7238998413,
+        "late_pct": 8.8,
+        "count": 828
+    },
+    {
+        "airport_code": "FNT",
+        "airport_name": "Bishop International Airport",
+        "lat": 42.9654006958,
+        "lon": -83.743598938,
+        "late_pct": 19.2,
+        "count": 2917
+    },
+    {
+        "airport_code": "FOD",
+        "airport_name": "Fort Dodge Regional Airport",
+        "lat": 42.55149841,
+        "lon": -94.19259644,
+        "late_pct": 21.8,
+        "count": 610
+    },
+    {
+        "airport_code": "FSD",
+        "airport_name": "Sioux Falls Regional Airport \/ Joe Foss Field",
+        "lat": 43.585463,
+        "lon": -96.741152,
+        "late_pct": 17.7,
+        "count": 7980
+    },
+    {
+        "airport_code": "FSM",
+        "airport_name": "Fort Smith Regional Airport",
+        "lat": 35.336601,
+        "lon": -94.367401,
+        "late_pct": 18.1,
+        "count": 1156
+    },
+    {
+        "airport_code": "FWA",
+        "airport_name": "Fort Wayne International Airport",
+        "lat": 40.9785,
+        "lon": -85.195099,
+        "late_pct": 20.7,
+        "count": 6593
+    },
+    {
+        "airport_code": "GCC",
+        "airport_name": "Northeast Wyoming Regional Airport",
+        "lat": 44.3489,
+        "lon": -105.539001,
+        "late_pct": 10.9,
+        "count": 717
+    },
+    {
+        "airport_code": "GCK",
+        "airport_name": "Garden City Regional Airport",
+        "lat": 37.9275016785,
+        "lon": -100.723999023,
+        "late_pct": 18.3,
+        "count": 711
+    },
+    {
+        "airport_code": "GEG",
+        "airport_name": "Spokane International Airport",
+        "lat": 47.6199,
+        "lon": -117.533997,
+        "late_pct": 13.1,
+        "count": 20850
+    },
+    {
+        "airport_code": "GFK",
+        "airport_name": "Grand Forks International Airport",
+        "lat": 47.949299,
+        "lon": -97.176102,
+        "late_pct": 13.9,
+        "count": 1276
+    },
+    {
+        "airport_code": "GGG",
+        "airport_name": "East Texas Regional Airport",
+        "lat": 32.3839988708,
+        "lon": -94.7115020752,
+        "late_pct": 18.9,
+        "count": 714
+    },
+    {
+        "airport_code": "GJT",
+        "airport_name": "Grand Junction Regional Airport",
+        "lat": 39.126663,
+        "lon": -108.529387,
+        "late_pct": 14.5,
+        "count": 4096
+    },
+    {
+        "airport_code": "GNV",
+        "airport_name": "Gainesville Regional Airport",
+        "lat": 29.6900997162,
+        "lon": -82.2717971802,
+        "late_pct": 15.5,
+        "count": 4019
+    },
+    {
+        "airport_code": "GPT",
+        "airport_name": "Gulfport Biloxi International Airport",
+        "lat": 30.407301,
+        "lon": -89.070099,
+        "late_pct": 14.8,
+        "count": 4138
+    },
+    {
+        "airport_code": "GRB",
+        "airport_name": "Austin Straubel International Airport",
+        "lat": 44.4851,
+        "lon": -88.129601,
+        "late_pct": 16.8,
+        "count": 5210
+    },
+    {
+        "airport_code": "GRI",
+        "airport_name": "Central Nebraska Regional Airport",
+        "lat": 40.9674987793,
+        "lon": -98.3096008301,
+        "late_pct": 21.5,
+        "count": 933
+    },
+    {
+        "airport_code": "GRK",
+        "airport_name": "Killeen-Fort Hood Regional Airport \/ Robert Gray Army Air Field",
+        "lat": 31.0672,
+        "lon": -97.828903,
+        "late_pct": 20.6,
+        "count": 1758
+    },
+    {
+        "airport_code": "GRR",
+        "airport_name": "Gerald R. Ford International Airport",
+        "lat": 42.88079834,
+        "lon": -85.52279663,
+        "late_pct": 16.6,
+        "count": 19432
+    },
+    {
+        "airport_code": "GSO",
+        "airport_name": "Piedmont Triad International Airport",
+        "lat": 36.097801,
+        "lon": -79.937302,
+        "late_pct": 13.5,
+        "count": 13646
+    },
+    {
+        "airport_code": "GSP",
+        "airport_name": "Greenville Spartanburg International Airport",
+        "lat": 34.895699,
+        "lon": -82.218903,
+        "late_pct": 15.0,
+        "count": 17063
+    },
+    {
+        "airport_code": "GST",
+        "airport_name": "Gustavus Airport",
+        "lat": 58.4253006,
+        "lon": -135.7070007,
+        "late_pct": 11.9,
+        "count": 84
+    },
+    {
+        "airport_code": "GTF",
+        "airport_name": "Great Falls International Airport",
+        "lat": 47.48199844,
+        "lon": -111.3710022,
+        "late_pct": 10.0,
+        "count": 2760
+    },
+    {
+        "airport_code": "GTR",
+        "airport_name": "Golden Triangle Regional Airport",
+        "lat": 33.4502983093,
+        "lon": -88.5914001465,
+        "late_pct": 8.0,
+        "count": 721
+    },
+    {
+        "airport_code": "GUC",
+        "airport_name": "Gunnison Crested Butte Regional Airport",
+        "lat": 38.53390121,
+        "lon": -106.9329987,
+        "late_pct": 16.0,
+        "count": 950
+    },
+    {
+        "airport_code": "GUM",
+        "airport_name": "Antonio B. Won Pat International Airport",
+        "lat": 13.4834,
+        "lon": 144.796005,
+        "late_pct": 7.4,
+        "count": 726
+    },
+    {
+        "airport_code": "HDN",
+        "airport_name": "Yampa Valley Airport",
+        "lat": 40.48120117,
+        "lon": -107.2180023,
+        "late_pct": 21.4,
+        "count": 2526
+    },
+    {
+        "airport_code": "HGR",
+        "airport_name": "Hagerstown Regional Richard A Henson Field",
+        "lat": 39.707901,
+        "lon": -77.72949982,
+        "late_pct": 35.7,
+        "count": 286
+    },
+    {
+        "airport_code": "HHH",
+        "airport_name": "Hilton Head Airport",
+        "lat": 32.2243995667,
+        "lon": -80.6975021362,
+        "late_pct": 20.8,
+        "count": 1820
+    },
+    {
+        "airport_code": "HIB",
+        "airport_name": "Range Regional Airport",
+        "lat": 47.3866,
+        "lon": -92.838997,
+        "late_pct": 12.9,
+        "count": 622
+    },
+    {
+        "airport_code": "HLN",
+        "airport_name": "Helena Regional Airport",
+        "lat": 46.6068,
+        "lon": -111.983002,
+        "late_pct": 10.1,
+        "count": 1922
+    },
+    {
+        "airport_code": "HNL",
+        "airport_name": "Daniel K Inouye International Airport",
+        "lat": 21.32062,
+        "lon": -157.924228,
+        "late_pct": 13.0,
+        "count": 60885
+    },
+    {
+        "airport_code": "HOB",
+        "airport_name": "Lea County Regional Airport",
+        "lat": 32.6875,
+        "lon": -103.2170029,
+        "late_pct": 19.2,
+        "count": 717
+    },
+    {
+        "airport_code": "HOU",
+        "airport_name": "William P Hobby Airport",
+        "lat": 29.645399,
+        "lon": -95.2789,
+        "late_pct": 22.9,
+        "count": 56265
+    },
+    {
+        "airport_code": "HPN",
+        "airport_name": "Westchester County Airport",
+        "lat": 41.0670013428,
+        "lon": -73.7076034546,
+        "late_pct": 18.4,
+        "count": 12070
+    },
+    {
+        "airport_code": "HRL",
+        "airport_name": "Valley International Airport",
+        "lat": 26.2285003662,
+        "lon": -97.6544036865,
+        "late_pct": 14.6,
+        "count": 5667
+    },
+    {
+        "airport_code": "HSV",
+        "airport_name": "Huntsville International Carl T Jones Field",
+        "lat": 34.637199,
+        "lon": -86.775101,
+        "late_pct": 18.1,
+        "count": 12202
+    },
+    {
+        "airport_code": "HTS",
+        "airport_name": "Tri-State\/Milton J. Ferguson Field",
+        "lat": 38.366699,
+        "lon": -82.557999,
+        "late_pct": 19.5,
+        "count": 1284
+    },
+    {
+        "airport_code": "HYA",
+        "airport_name": "Barnstable Municipal Boardman Polando Field",
+        "lat": 41.66930008,
+        "lon": -70.28040314,
+        "late_pct": 23.3,
+        "count": 258
+    },
+    {
+        "airport_code": "HYS",
+        "airport_name": "Hays Regional Airport",
+        "lat": 38.84220123,
+        "lon": -99.27320099,
+        "late_pct": 12.0,
+        "count": 657
+    },
+    {
+        "airport_code": "IAD",
+        "airport_name": "Washington Dulles International Airport",
+        "lat": 38.9445,
+        "lon": -77.455803,
+        "late_pct": 15.6,
+        "count": 80158
+    },
+    {
+        "airport_code": "IAG",
+        "airport_name": "Niagara Falls International Airport",
+        "lat": 43.1073,
+        "lon": -78.946198,
+        "late_pct": 31.3,
+        "count": 374
+    },
+    {
+        "airport_code": "IAH",
+        "airport_name": "George Bush Intercontinental Houston Airport",
+        "lat": 29.9843997955,
+        "lon": -95.3414001465,
+        "late_pct": 22.1,
+        "count": 163907
+    },
+    {
+        "airport_code": "ICT",
+        "airport_name": "Wichita Eisenhower National Airport",
+        "lat": 37.649899,
+        "lon": -97.433098,
+        "late_pct": 15.9,
+        "count": 11653
+    },
+    {
+        "airport_code": "IDA",
+        "airport_name": "Idaho Falls Regional Airport",
+        "lat": 43.514599,
+        "lon": -112.070999,
+        "late_pct": 13.7,
+        "count": 4167
+    },
+    {
+        "airport_code": "ILM",
+        "airport_name": "Wilmington International Airport",
+        "lat": 34.2705993652,
+        "lon": -77.9026031494,
+        "late_pct": 15.6,
+        "count": 9301
+    },
+    {
+        "airport_code": "IMT",
+        "airport_name": "Ford Airport",
+        "lat": 45.8184013367,
+        "lon": -88.1145019531,
+        "late_pct": 16.1,
+        "count": 719
+    },
+    {
+        "airport_code": "IND",
+        "airport_name": "Indianapolis International Airport",
+        "lat": 39.7173,
+        "lon": -86.294403,
+        "late_pct": 15.7,
+        "count": 47634
+    },
+    {
+        "airport_code": "INL",
+        "airport_name": "Falls International Airport",
+        "lat": 48.5662002563,
+        "lon": -93.4030990601,
+        "late_pct": 16.0,
+        "count": 645
+    },
+    {
+        "airport_code": "ISP",
+        "airport_name": "Long Island Mac Arthur Airport",
+        "lat": 40.79520035,
+        "lon": -73.10019684,
+        "late_pct": 22.6,
+        "count": 4676
+    },
+    {
+        "airport_code": "ITH",
+        "airport_name": "Ithaca Tompkins Regional Airport",
+        "lat": 42.4910011292,
+        "lon": -76.4583969116,
+        "late_pct": 13.1,
+        "count": 1401
+    },
+    {
+        "airport_code": "ITO",
+        "airport_name": "Hilo International Airport",
+        "lat": 19.7213993073,
+        "lon": -155.0480041504,
+        "late_pct": 9.8,
+        "count": 6697
+    },
+    {
+        "airport_code": "JAC",
+        "airport_name": "Jackson Hole Airport",
+        "lat": 43.6072998047,
+        "lon": -110.7379989624,
+        "late_pct": 20.3,
+        "count": 5500
+    },
+    {
+        "airport_code": "JAN",
+        "airport_name": "Jackson-Medgar Wiley Evers International Airport",
+        "lat": 32.311199,
+        "lon": -90.075897,
+        "late_pct": 16.4,
+        "count": 8771
+    },
+    {
+        "airport_code": "JAX",
+        "airport_name": "Jacksonville International Airport",
+        "lat": 30.4941005707,
+        "lon": -81.6878967285,
+        "late_pct": 18.2,
+        "count": 30101
+    },
+    {
+        "airport_code": "JFK",
+        "airport_name": "John F Kennedy International Airport",
+        "lat": 40.639801,
+        "lon": -73.7789,
+        "late_pct": 19.6,
+        "count": 120772
+    },
+    {
+        "airport_code": "JLN",
+        "airport_name": "Joplin Regional Airport",
+        "lat": 37.151798,
+        "lon": -94.498299,
+        "late_pct": 15.8,
+        "count": 609
+    },
+    {
+        "airport_code": "JMS",
+        "airport_name": "Jamestown Regional Airport",
+        "lat": 46.92969894,
+        "lon": -98.67819977,
+        "late_pct": 12.9,
+        "count": 575
+    },
+    {
+        "airport_code": "JNU",
+        "airport_name": "Juneau International Airport",
+        "lat": 58.3549995422,
+        "lon": -134.5760040283,
+        "late_pct": 13.5,
+        "count": 4638
+    },
+    {
+        "airport_code": "JST",
+        "airport_name": "John Murtha Johnstown Cambria County Airport",
+        "lat": 40.3161010742,
+        "lon": -78.8339004517,
+        "late_pct": 18.3,
+        "count": 714
+    },
+    {
+        "airport_code": "KOA",
+        "airport_name": "Ellison Onizuka Kona International Airport at Keahole",
+        "lat": 19.738783,
+        "lon": -156.045603,
+        "late_pct": 10.7,
+        "count": 16121
+    },
+    {
+        "airport_code": "KTN",
+        "airport_name": "Ketchikan International Airport",
+        "lat": 55.35559845,
+        "lon": -131.7140045,
+        "late_pct": 14.9,
+        "count": 2460
+    },
+    {
+        "airport_code": "LAN",
+        "airport_name": "Capital City Airport",
+        "lat": 42.7787017822,
+        "lon": -84.5874023438,
+        "late_pct": 18.5,
+        "count": 2171
+    },
+    {
+        "airport_code": "LAR",
+        "airport_name": "Laramie Regional Airport",
+        "lat": 41.3120994568,
+        "lon": -105.6750030518,
+        "late_pct": 13.2,
+        "count": 604
+    },
+    {
+        "airport_code": "LAS",
+        "airport_name": "McCarran International Airport",
+        "lat": 36.08010101,
+        "lon": -115.1520004,
+        "late_pct": 22.7,
+        "count": 188334
+    },
+    {
+        "airport_code": "LAW",
+        "airport_name": "Lawton Fort Sill Regional Airport",
+        "lat": 34.5676994324,
+        "lon": -98.4166030884,
+        "late_pct": 15.8,
+        "count": 1049
+    },
+    {
+        "airport_code": "LAX",
+        "airport_name": "Los Angeles International Airport",
+        "lat": 33.942501,
+        "lon": -118.407997,
+        "late_pct": 17.4,
+        "count": 193984
+    },
+    {
+        "airport_code": "LBB",
+        "airport_name": "Lubbock Preston Smith International Airport",
+        "lat": 33.663601,
+        "lon": -101.822998,
+        "late_pct": 15.2,
+        "count": 7177
+    },
+    {
+        "airport_code": "LBE",
+        "airport_name": "Arnold Palmer Regional Airport",
+        "lat": 40.275902,
+        "lon": -79.4048,
+        "late_pct": 16.4,
+        "count": 561
+    },
+    {
+        "airport_code": "LBF",
+        "airport_name": "North Platte Regional Airport Lee Bird Field",
+        "lat": 41.12620163,
+        "lon": -100.6839981,
+        "late_pct": 11.5,
+        "count": 616
+    },
+    {
+        "airport_code": "LBL",
+        "airport_name": "Liberal Mid-America Regional Airport",
+        "lat": 37.0442009,
+        "lon": -100.9599991,
+        "late_pct": 16.1,
+        "count": 545
+    },
+    {
+        "airport_code": "LCH",
+        "airport_name": "Lake Charles Regional Airport",
+        "lat": 30.1261005402,
+        "lon": -93.2232971191,
+        "late_pct": 15.2,
+        "count": 1882
+    },
+    {
+        "airport_code": "LCK",
+        "airport_name": "Rickenbacker International Airport",
+        "lat": 39.813801,
+        "lon": -82.927803,
+        "late_pct": 23.9,
+        "count": 932
+    },
+    {
+        "airport_code": "LEX",
+        "airport_name": "Blue Grass Airport",
+        "lat": 38.036499,
+        "lon": -84.605904,
+        "late_pct": 17.2,
+        "count": 9973
+    },
+    {
+        "airport_code": "LFT",
+        "airport_name": "Lafayette Regional Airport",
+        "lat": 30.205299,
+        "lon": -91.987602,
+        "late_pct": 15.7,
+        "count": 4694
+    },
+    {
+        "airport_code": "LGA",
+        "airport_name": "La Guardia Airport",
+        "lat": 40.777199,
+        "lon": -73.872597,
+        "late_pct": 17.4,
+        "count": 158669
+    },
+    {
+        "airport_code": "LGB",
+        "airport_name": "Long Beach Airport (Daugherty Field)",
+        "lat": 33.817699,
+        "lon": -118.152,
+        "late_pct": 16.0,
+        "count": 17530
+    },
+    {
+        "airport_code": "LIH",
+        "airport_name": "Lihue Airport",
+        "lat": 21.9759998322,
+        "lon": -159.3390045166,
+        "late_pct": 10.7,
+        "count": 15792
+    },
+    {
+        "airport_code": "LIT",
+        "airport_name": "Bill & Hillary Clinton National Airport\/Adams Field",
+        "lat": 34.729582,
+        "lon": -92.223728,
+        "late_pct": 18.8,
+        "count": 14575
+    },
+    {
+        "airport_code": "LNK",
+        "airport_name": "Lincoln Airport",
+        "lat": 40.8510017395,
+        "lon": -96.7592010498,
+        "late_pct": 16.6,
+        "count": 2554
+    },
+    {
+        "airport_code": "LRD",
+        "airport_name": "Laredo International Airport",
+        "lat": 27.543800354,
+        "lon": -99.4616012573,
+        "late_pct": 14.7,
+        "count": 2938
+    },
+    {
+        "airport_code": "LSE",
+        "airport_name": "La Crosse Regional Airport",
+        "lat": 43.879002,
+        "lon": -91.256699,
+        "late_pct": 15.8,
+        "count": 910
+    },
+    {
+        "airport_code": "LWS",
+        "airport_name": "Lewiston Nez Perce County Airport",
+        "lat": 46.3745002747,
+        "lon": -117.0149993896,
+        "late_pct": 10.8,
+        "count": 1091
+    },
+    {
+        "airport_code": "LYH",
+        "airport_name": "Lynchburg Regional Preston Glenn Field",
+        "lat": 37.3266983032,
+        "lon": -79.2004013062,
+        "late_pct": 12.0,
+        "count": 1892
+    },
+    {
+        "airport_code": "MAF",
+        "airport_name": "Midland International Airport",
+        "lat": 31.9424991608,
+        "lon": -102.202003479,
+        "late_pct": 16.1,
+        "count": 10925
+    },
+    {
+        "airport_code": "MBS",
+        "airport_name": "MBS International Airport",
+        "lat": 43.532902,
+        "lon": -84.079597,
+        "late_pct": 18.3,
+        "count": 2175
+    },
+    {
+        "airport_code": "MCI",
+        "airport_name": "Kansas City International Airport",
+        "lat": 39.2976,
+        "lon": -94.713898,
+        "late_pct": 16.3,
+        "count": 51330
+    },
+    {
+        "airport_code": "MCO",
+        "airport_name": "Orlando International Airport",
+        "lat": 28.4293994904,
+        "lon": -81.3089981079,
+        "late_pct": 23.8,
+        "count": 156258
+    },
+    {
+        "airport_code": "MCW",
+        "airport_name": "Mason City Municipal Airport",
+        "lat": 43.1577987671,
+        "lon": -93.3312988281,
+        "late_pct": 19.4,
+        "count": 602
+    },
+    {
+        "airport_code": "MDT",
+        "airport_name": "Harrisburg International Airport",
+        "lat": 40.1935005188,
+        "lon": -76.7633972168,
+        "late_pct": 16.2,
+        "count": 9181
+    },
+    {
+        "airport_code": "MDW",
+        "airport_name": "Chicago Midway International Airport",
+        "lat": 41.785999,
+        "lon": -87.752403,
+        "late_pct": 23.4,
+        "count": 78480
+    },
+    {
+        "airport_code": "MEI",
+        "airport_name": "Key Field \/ Meridian Regional Airport",
+        "lat": 32.3326,
+        "lon": -88.7519,
+        "late_pct": 14.8,
+        "count": 607
+    },
+    {
+        "airport_code": "MEM",
+        "airport_name": "Memphis International Airport",
+        "lat": 35.0424003601,
+        "lon": -89.9766998291,
+        "late_pct": 16.6,
+        "count": 24014
+    },
+    {
+        "airport_code": "MFE",
+        "airport_name": "McAllen Miller International Airport",
+        "lat": 26.176141,
+        "lon": -98.237965,
+        "late_pct": 17.6,
+        "count": 6160
+    },
+    {
+        "airport_code": "MFR",
+        "airport_name": "Rogue Valley International Medford Airport",
+        "lat": 42.3741989136,
+        "lon": -122.8730010986,
+        "late_pct": 13.0,
+        "count": 6416
+    },
+    {
+        "airport_code": "MGM",
+        "airport_name": "Montgomery Regional (Dannelly Field) Airport",
+        "lat": 32.300598,
+        "lon": -86.393997,
+        "late_pct": 16.8,
+        "count": 3306
+    },
+    {
+        "airport_code": "MGW",
+        "airport_name": "Morgantown Municipal Walter L. Bill Hart Field",
+        "lat": 39.64289856,
+        "lon": -79.91629791,
+        "late_pct": 40.5,
+        "count": 37
+    },
+    {
+        "airport_code": "MHK",
+        "airport_name": "Manhattan Regional Airport",
+        "lat": 39.1409988403,
+        "lon": -96.6707992554,
+        "late_pct": 14.6,
+        "count": 1619
+    },
+    {
+        "airport_code": "MHT",
+        "airport_name": "Manchester-Boston Regional Airport",
+        "lat": 42.932598,
+        "lon": -71.435699,
+        "late_pct": 15.8,
+        "count": 7162
+    },
+    {
+        "airport_code": "MIA",
+        "airport_name": "Miami International Airport",
+        "lat": 25.7931995392,
+        "lon": -80.2906036377,
+        "late_pct": 26.3,
+        "count": 107722
+    },
+    {
+        "airport_code": "MKE",
+        "airport_name": "General Mitchell International Airport",
+        "lat": 42.9472007751,
+        "lon": -87.8965988159,
+        "late_pct": 16.6,
+        "count": 30392
+    },
+    {
+        "airport_code": "MLB",
+        "airport_name": "Melbourne Orlando International Airport",
+        "lat": 28.1028,
+        "lon": -80.645302,
+        "late_pct": 14.5,
+        "count": 2763
+    },
+    {
+        "airport_code": "MLI",
+        "airport_name": "Quad City International Airport",
+        "lat": 41.448502,
+        "lon": -90.5075,
+        "late_pct": 17.5,
+        "count": 5212
+    },
+    {
+        "airport_code": "MLU",
+        "airport_name": "Monroe Regional Airport",
+        "lat": 32.510899,
+        "lon": -92.037697,
+        "late_pct": 16.5,
+        "count": 1997
+    },
+    {
+        "airport_code": "MOB",
+        "airport_name": "Mobile Regional Airport",
+        "lat": 30.6912,
+        "lon": -88.242798,
+        "late_pct": 13.9,
+        "count": 5242
+    },
+    {
+        "airport_code": "MOT",
+        "airport_name": "Minot International Airport",
+        "lat": 48.2593994141,
+        "lon": -101.2799987793,
+        "late_pct": 16.2,
+        "count": 2328
+    },
+    {
+        "airport_code": "MQT",
+        "airport_name": "Sawyer International Airport",
+        "lat": 46.3535995483,
+        "lon": -87.395401001,
+        "late_pct": 19.1,
+        "count": 899
+    },
+    {
+        "airport_code": "MRY",
+        "airport_name": "Monterey Peninsula Airport",
+        "lat": 36.5870018005,
+        "lon": -121.8430023193,
+        "late_pct": 15.8,
+        "count": 4766
+    },
+    {
+        "airport_code": "MSN",
+        "airport_name": "Dane County Regional Truax Field",
+        "lat": 43.1399,
+        "lon": -89.337502,
+        "late_pct": 16.4,
+        "count": 12958
+    },
+    {
+        "airport_code": "MSO",
+        "airport_name": "Missoula International Airport",
+        "lat": 46.91630173,
+        "lon": -114.0910034,
+        "late_pct": 16.3,
+        "count": 5333
+    },
+    {
+        "airport_code": "MSP",
+        "airport_name": "Minneapolis\u2013Saint Paul International Airport \/ Wold\u2013Chamberlain Field",
+        "lat": 44.882,
+        "lon": -93.221802,
+        "late_pct": 16.9,
+        "count": 126757
+    },
+    {
+        "airport_code": "MSY",
+        "airport_name": "Louis Armstrong New Orleans International Airport",
+        "lat": 29.9934005737,
+        "lon": -90.2580032349,
+        "late_pct": 21.1,
+        "count": 49735
+    },
+    {
+        "airport_code": "MTJ",
+        "airport_name": "Montrose Regional Airport",
+        "lat": 38.5097999573,
+        "lon": -107.893997192,
+        "late_pct": 19.1,
+        "count": 2834
+    },
+    {
+        "airport_code": "MVY",
+        "airport_name": "Martha's Vineyard Airport",
+        "lat": 41.3931007385,
+        "lon": -70.6143035889,
+        "late_pct": 22.0,
+        "count": 1021
+    },
+    {
+        "airport_code": "MYR",
+        "airport_name": "Myrtle Beach International Airport",
+        "lat": 33.6796989441,
+        "lon": -78.9282989502,
+        "late_pct": 17.7,
+        "count": 16253
+    },
+    {
+        "airport_code": "OAJ",
+        "airport_name": "Albert J Ellis Airport",
+        "lat": 34.829201,
+        "lon": -77.612099,
+        "late_pct": 13.1,
+        "count": 2746
+    },
+    {
+        "airport_code": "OAK",
+        "airport_name": "Metropolitan Oakland International Airport",
+        "lat": 37.721298,
+        "lon": -122.221001,
+        "late_pct": 18.4,
+        "count": 42047
+    },
+    {
+        "airport_code": "OGG",
+        "airport_name": "Kahului Airport",
+        "lat": 20.8986,
+        "lon": -156.429993,
+        "late_pct": 11.1,
+        "count": 26227
+    },
+    {
+        "airport_code": "OKC",
+        "airport_name": "Will Rogers World Airport",
+        "lat": 35.393101,
+        "lon": -97.6007,
+        "late_pct": 15.5,
+        "count": 24267
+    },
+    {
+        "airport_code": "OMA",
+        "airport_name": "Eppley Airfield",
+        "lat": 41.3032,
+        "lon": -95.894096,
+        "late_pct": 17.3,
+        "count": 23908
+    },
+    {
+        "airport_code": "OME",
+        "airport_name": "Nome Airport",
+        "lat": 64.5121994019,
+        "lon": -165.4450073242,
+        "late_pct": 15.9,
+        "count": 699
+    },
+    {
+        "airport_code": "ONT",
+        "airport_name": "Ontario International Airport",
+        "lat": 34.0559997559,
+        "lon": -117.6009979248,
+        "late_pct": 15.7,
+        "count": 26435
+    },
+    {
+        "airport_code": "ORD",
+        "airport_name": "Chicago O'Hare International Airport",
+        "lat": 41.9786,
+        "lon": -87.9048,
+        "late_pct": 21.1,
+        "count": 313141
+    },
+    {
+        "airport_code": "ORF",
+        "airport_name": "Norfolk International Airport",
+        "lat": 36.8946,
+        "lon": -76.201202,
+        "late_pct": 18.3,
+        "count": 22490
+    },
+    {
+        "airport_code": "ORH",
+        "airport_name": "Worcester Regional Airport",
+        "lat": 42.2673,
+        "lon": -71.875702,
+        "late_pct": 22.1,
+        "count": 1351
+    },
+    {
+        "airport_code": "OTH",
+        "airport_name": "Southwest Oregon Regional Airport",
+        "lat": 43.417098999,
+        "lon": -124.2460021973,
+        "late_pct": 33.3,
+        "count": 339
+    },
+    {
+        "airport_code": "OTZ",
+        "airport_name": "Ralph Wien Memorial Airport",
+        "lat": 66.88469696,
+        "lon": -162.598999,
+        "late_pct": 14.1,
+        "count": 682
+    },
+    {
+        "airport_code": "PAE",
+        "airport_name": "Snohomish County (Paine Field) Airport",
+        "lat": 47.9063,
+        "lon": -122.281998,
+        "late_pct": 16.6,
+        "count": 2928
+    },
+    {
+        "airport_code": "PBG",
+        "airport_name": "Plattsburgh International Airport",
+        "lat": 44.6509017944,
+        "lon": -73.4681015015,
+        "late_pct": 28.0,
+        "count": 479
+    },
+    {
+        "airport_code": "PBI",
+        "airport_name": "Palm Beach International Airport",
+        "lat": 26.6832008362,
+        "lon": -80.0955963135,
+        "late_pct": 22.7,
+        "count": 28941
+    },
+    {
+        "airport_code": "PDX",
+        "airport_name": "Portland International Airport",
+        "lat": 45.58869934,
+        "lon": -122.5979996,
+        "late_pct": 14.6,
+        "count": 71067
+    },
+    {
+        "airport_code": "PGD",
+        "airport_name": "Charlotte County Airport",
+        "lat": 26.9202,
+        "lon": -81.990501,
+        "late_pct": 20.3,
+        "count": 6202
+    },
+    {
+        "airport_code": "PGV",
+        "airport_name": "Pitt Greenville Airport",
+        "lat": 35.6352005,
+        "lon": -77.38529968,
+        "late_pct": 12.8,
+        "count": 1007
+    },
+    {
+        "airport_code": "PHF",
+        "airport_name": "Newport News Williamsburg International Airport",
+        "lat": 37.131901,
+        "lon": -76.492996,
+        "late_pct": 10.5,
+        "count": 1625
+    },
+    {
+        "airport_code": "PHL",
+        "airport_name": "Philadelphia International Airport",
+        "lat": 39.8718986511,
+        "lon": -75.2410964966,
+        "late_pct": 19.4,
+        "count": 120240
+    },
+    {
+        "airport_code": "PHX",
+        "airport_name": "Phoenix Sky Harbor International Airport",
+        "lat": 33.435302,
+        "lon": -112.005905,
+        "late_pct": 19.3,
+        "count": 193439
+    },
+    {
+        "airport_code": "PIA",
+        "airport_name": "General Wayne A. Downing Peoria International Airport",
+        "lat": 40.6642,
+        "lon": -89.693298,
+        "late_pct": 19.7,
+        "count": 4589
+    },
+    {
+        "airport_code": "PIB",
+        "airport_name": "Hattiesburg Laurel Regional Airport",
+        "lat": 31.4671,
+        "lon": -89.337097,
+        "late_pct": 15.7,
+        "count": 606
+    },
+    {
+        "airport_code": "PIE",
+        "airport_name": "St Petersburg Clearwater International Airport",
+        "lat": 27.91020012,
+        "lon": -82.68740082,
+        "late_pct": 19.9,
+        "count": 8062
+    },
+    {
+        "airport_code": "PIH",
+        "airport_name": "Pocatello Regional Airport",
+        "lat": 42.9098014832,
+        "lon": -112.5960006714,
+        "late_pct": 4.7,
+        "count": 700
+    },
+    {
+        "airport_code": "PIT",
+        "airport_name": "Pittsburgh International Airport",
+        "lat": 40.49150085,
+        "lon": -80.23290253,
+        "late_pct": 15.8,
+        "count": 44714
+    },
+    {
+        "airport_code": "PLN",
+        "airport_name": "Pellston Regional Airport of Emmet County Airport",
+        "lat": 45.57089996,
+        "lon": -84.79669952,
+        "late_pct": 18.9,
+        "count": 830
+    },
+    {
+        "airport_code": "PNS",
+        "airport_name": "Pensacola International Airport",
+        "lat": 30.4734,
+        "lon": -87.1866,
+        "late_pct": 18.8,
+        "count": 14160
+    },
+    {
+        "airport_code": "PPG",
+        "airport_name": "Pago Pago International Airport",
+        "lat": -14.331,
+        "lon": -170.710007,
+        "late_pct": 16.8,
+        "count": 125
+    },
+    {
+        "airport_code": "PQI",
+        "airport_name": "Presque Isle International Airport",
+        "lat": 46.688999,
+        "lon": -68.0448,
+        "late_pct": 15.6,
+        "count": 540
+    },
+    {
+        "airport_code": "PRC",
+        "airport_name": "Prescott International Airport - Ernest A. Love Field",
+        "lat": 34.654499,
+        "lon": -112.419998,
+        "late_pct": 20.4,
+        "count": 725
+    },
+    {
+        "airport_code": "PSC",
+        "airport_name": "Tri Cities Airport",
+        "lat": 46.2647018433,
+        "lon": -119.1190032959,
+        "late_pct": 12.2,
+        "count": 6178
+    },
+    {
+        "airport_code": "PSE",
+        "airport_name": "Mercedita Airport",
+        "lat": 18.0083007812,
+        "lon": -66.56300354,
+        "late_pct": 19.1,
+        "count": 923
+    },
+    {
+        "airport_code": "PSG",
+        "airport_name": "Petersburg James A Johnson Airport",
+        "lat": 56.80170059,
+        "lon": -132.9450073,
+        "late_pct": 12.7,
+        "count": 709
+    },
+    {
+        "airport_code": "PSM",
+        "airport_name": "Portsmouth International at Pease Airport",
+        "lat": 43.0778999329,
+        "lon": -70.8233032227,
+        "late_pct": 18.7,
+        "count": 364
+    },
+    {
+        "airport_code": "PSP",
+        "airport_name": "Palm Springs International Airport",
+        "lat": 33.8297,
+        "lon": -116.507004,
+        "late_pct": 16.7,
+        "count": 13896
+    },
+    {
+        "airport_code": "PUW",
+        "airport_name": "Pullman Moscow Regional Airport",
+        "lat": 46.7439,
+        "lon": -117.110001,
+        "late_pct": 13.5,
+        "count": 1029
+    },
+    {
+        "airport_code": "PVD",
+        "airport_name": "Theodore Francis Green State Airport",
+        "lat": 41.725038,
+        "lon": -71.425668,
+        "late_pct": 16.1,
+        "count": 16579
+    },
+    {
+        "airport_code": "PVU",
+        "airport_name": "Provo-Utah Lake International Airport",
+        "lat": 40.2192,
+        "lon": -111.723,
+        "late_pct": 16.0,
+        "count": 2167
+    },
+    {
+        "airport_code": "PWM",
+        "airport_name": "Portland International Jetport",
+        "lat": 43.646198,
+        "lon": -70.309303,
+        "late_pct": 16.3,
+        "count": 12384
+    },
+    {
+        "airport_code": "RAP",
+        "airport_name": "Rapid City Regional Airport",
+        "lat": 44.04529953,
+        "lon": -103.0569992065,
+        "late_pct": 16.4,
+        "count": 5259
+    },
+    {
+        "airport_code": "RDD",
+        "airport_name": "Redding Municipal Airport",
+        "lat": 40.50899887,
+        "lon": -122.2929993,
+        "late_pct": 13.4,
+        "count": 1534
+    },
+    {
+        "airport_code": "RDM",
+        "airport_name": "Roberts Field",
+        "lat": 44.2541008,
+        "lon": -121.1500015,
+        "late_pct": 17.5,
+        "count": 7605
+    },
+    {
+        "airport_code": "RDU",
+        "airport_name": "Raleigh Durham International Airport",
+        "lat": 35.8776016235,
+        "lon": -78.7874984741,
+        "late_pct": 18.8,
+        "count": 61179
+    },
+    {
+        "airport_code": "RFD",
+        "airport_name": "Chicago Rockford International Airport",
+        "lat": 42.1954,
+        "lon": -89.097198,
+        "late_pct": 22.2,
+        "count": 825
+    },
+    {
+        "airport_code": "RHI",
+        "airport_name": "Rhinelander Oneida County Airport",
+        "lat": 45.6311988831,
+        "lon": -89.4674987793,
+        "late_pct": 17.0,
+        "count": 820
+    },
+    {
+        "airport_code": "RIC",
+        "airport_name": "Richmond International Airport",
+        "lat": 37.5051994324,
+        "lon": -77.3197021484,
+        "late_pct": 17.8,
+        "count": 23520
+    },
+    {
+        "airport_code": "RIW",
+        "airport_name": "Riverton Regional Airport",
+        "lat": 43.064201355,
+        "lon": -108.459999084,
+        "late_pct": 11.0,
+        "count": 609
+    },
+    {
+        "airport_code": "RKS",
+        "airport_name": "Southwest Wyoming Regional Airport",
+        "lat": 41.5942,
+        "lon": -109.065001,
+        "late_pct": 10.7,
+        "count": 615
+    },
+    {
+        "airport_code": "RNO",
+        "airport_name": "Reno Tahoe International Airport",
+        "lat": 39.4990997314,
+        "lon": -119.7679977417,
+        "late_pct": 16.7,
+        "count": 21918
+    },
+    {
+        "airport_code": "ROA",
+        "airport_name": "Roanoke\u2013Blacksburg Regional Airport",
+        "lat": 37.3255,
+        "lon": -79.975403,
+        "late_pct": 18.1,
+        "count": 6857
+    },
+    {
+        "airport_code": "ROC",
+        "airport_name": "Greater Rochester International Airport",
+        "lat": 43.1189,
+        "lon": -77.672401,
+        "late_pct": 16.9,
+        "count": 15080
+    },
+    {
+        "airport_code": "ROW",
+        "airport_name": "Roswell Air Center Airport",
+        "lat": 33.301601,
+        "lon": -104.530998,
+        "late_pct": 21.0,
+        "count": 935
+    },
+    {
+        "airport_code": "RST",
+        "airport_name": "Rochester International Airport",
+        "lat": 43.908298,
+        "lon": -92.5,
+        "late_pct": 17.9,
+        "count": 2153
+    },
+    {
+        "airport_code": "RSW",
+        "airport_name": "Southwest Florida International Airport",
+        "lat": 26.5361995697,
+        "lon": -81.7552032471,
+        "late_pct": 19.8,
+        "count": 33972
+    },
+    {
+        "airport_code": "SAF",
+        "airport_name": "Santa Fe Municipal Airport",
+        "lat": 35.617099762,
+        "lon": -106.088996887,
+        "late_pct": 18.0,
+        "count": 3307
+    },
+    {
+        "airport_code": "SAN",
+        "airport_name": "San Diego International Airport",
+        "lat": 32.7336006165,
+        "lon": -117.190002441,
+        "late_pct": 21.2,
+        "count": 94207
+    },
+    {
+        "airport_code": "SAT",
+        "airport_name": "San Antonio International Airport",
+        "lat": 29.533701,
+        "lon": -98.469803,
+        "late_pct": 17.8,
+        "count": 41873
+    },
+    {
+        "airport_code": "SAV",
+        "airport_name": "Savannah Hilton Head International Airport",
+        "lat": 32.12760162,
+        "lon": -81.20210266,
+        "late_pct": 17.6,
+        "count": 20734
+    },
+    {
+        "airport_code": "SBA",
+        "airport_name": "Santa Barbara Municipal Airport",
+        "lat": 34.42620087,
+        "lon": -119.8399963,
+        "late_pct": 15.8,
+        "count": 7780
+    },
+    {
+        "airport_code": "SBN",
+        "airport_name": "South Bend Regional Airport",
+        "lat": 41.708698,
+        "lon": -86.317299,
+        "late_pct": 20.4,
+        "count": 6567
+    },
+    {
+        "airport_code": "SBP",
+        "airport_name": "San Luis County Regional Airport",
+        "lat": 35.2368011475,
+        "lon": -120.641998291,
+        "late_pct": 15.0,
+        "count": 5450
+    },
+    {
+        "airport_code": "SBY",
+        "airport_name": "Salisbury Ocean City Wicomico Regional Airport",
+        "lat": 38.3404998779,
+        "lon": -75.5102996826,
+        "late_pct": 13.0,
+        "count": 1818
+    },
+    {
+        "airport_code": "SCC",
+        "airport_name": "Deadhorse Airport",
+        "lat": 70.19470215,
+        "lon": -148.4649963,
+        "late_pct": 9.8,
+        "count": 552
+    },
+    {
+        "airport_code": "SCE",
+        "airport_name": "University Park Airport",
+        "lat": 40.849374,
+        "lon": -77.84852,
+        "late_pct": 13.3,
+        "count": 3037
+    },
+    {
+        "airport_code": "SCK",
+        "airport_name": "Stockton Metropolitan Airport",
+        "lat": 37.8941993713,
+        "lon": -121.2379989624,
+        "late_pct": 33.5,
+        "count": 513
+    },
+    {
+        "airport_code": "SDF",
+        "airport_name": "Louisville Muhammad Ali International Airport",
+        "lat": 38.1744,
+        "lon": -85.736,
+        "late_pct": 15.7,
+        "count": 26350
+    },
+    {
+        "airport_code": "SEA",
+        "airport_name": "Seattle Tacoma International Airport",
+        "lat": 47.449001,
+        "lon": -122.308998,
+        "late_pct": 18.8,
+        "count": 182507
+    },
+    {
+        "airport_code": "SFB",
+        "airport_name": "Orlando Sanford International Airport",
+        "lat": 28.7775993347,
+        "lon": -81.2375030518,
+        "late_pct": 22.4,
+        "count": 9321
+    },
+    {
+        "airport_code": "SFO",
+        "airport_name": "San Francisco International Airport",
+        "lat": 37.6189994812,
+        "lon": -122.375,
+        "late_pct": 22.7,
+        "count": 134633
+    },
+    {
+        "airport_code": "SGF",
+        "airport_name": "Springfield Branson National Airport",
+        "lat": 37.245701,
+        "lon": -93.388603,
+        "late_pct": 20.7,
+        "count": 10471
+    },
+    {
+        "airport_code": "SGU",
+        "airport_name": "Saint George-Southwest Utah International Airport",
+        "lat": 37.036389,
+        "lon": -113.510306,
+        "late_pct": 10.3,
+        "count": 3009
+    },
+    {
+        "airport_code": "SHR",
+        "airport_name": "Sheridan County Airport",
+        "lat": 44.7691993713,
+        "lon": -106.9800033569,
+        "late_pct": 8.3,
+        "count": 715
+    },
+    {
+        "airport_code": "SHV",
+        "airport_name": "Shreveport Regional Airport",
+        "lat": 32.446602,
+        "lon": -93.8256,
+        "late_pct": 16.1,
+        "count": 5821
+    },
+    {
+        "airport_code": "SIT",
+        "airport_name": "Sitka Rocky Gutierrez Airport",
+        "lat": 57.0471000671,
+        "lon": -135.3619995117,
+        "late_pct": 13.1,
+        "count": 1387
+    },
+    {
+        "airport_code": "SJC",
+        "airport_name": "Norman Y. Mineta San Jose International Airport",
+        "lat": 37.362598,
+        "lon": -121.929001,
+        "late_pct": 14.8,
+        "count": 50899
+    },
+    {
+        "airport_code": "SJT",
+        "airport_name": "San Angelo Regional Mathis Field",
+        "lat": 31.3577003479,
+        "lon": -100.4960021973,
+        "late_pct": 16.9,
+        "count": 1067
+    },
+    {
+        "airport_code": "SJU",
+        "airport_name": "Luis Munoz Marin International Airport",
+        "lat": 18.4393997192,
+        "lon": -66.0018005371,
+        "late_pct": 23.6,
+        "count": 34804
+    },
+    {
+        "airport_code": "SLC",
+        "airport_name": "Salt Lake City International Airport",
+        "lat": 40.785749,
+        "lon": -111.979746,
+        "late_pct": 16.0,
+        "count": 112488
+    },
+    {
+        "airport_code": "SLN",
+        "airport_name": "Salina Municipal Airport",
+        "lat": 38.7910003662,
+        "lon": -97.6521987915,
+        "late_pct": 16.7,
+        "count": 693
+    },
+    {
+        "airport_code": "SMF",
+        "airport_name": "Sacramento International Airport",
+        "lat": 38.695400238,
+        "lon": -121.591003418,
+        "late_pct": 16.8,
+        "count": 55898
+    },
+    {
+        "airport_code": "SMX",
+        "airport_name": "Santa Maria Public Airport Captain G Allan Hancock Field",
+        "lat": 34.898899,
+        "lon": -120.457001,
+        "late_pct": 31.1,
+        "count": 106
+    },
+    {
+        "airport_code": "SNA",
+        "airport_name": "John Wayne Airport-Orange County Airport",
+        "lat": 33.675701,
+        "lon": -117.867996,
+        "late_pct": 17.6,
+        "count": 43569
+    },
+    {
+        "airport_code": "SPI",
+        "airport_name": "Abraham Lincoln Capital Airport",
+        "lat": 39.844101,
+        "lon": -89.677902,
+        "late_pct": 25.1,
+        "count": 749
+    },
+    {
+        "airport_code": "SPN",
+        "airport_name": "Saipan International Airport",
+        "lat": 15.119,
+        "lon": 145.729004,
+        "late_pct": 6.0,
+        "count": 364
+    },
+    {
+        "airport_code": "SPS",
+        "airport_name": "Sheppard Air Force Base-Wichita Falls Municipal Airport",
+        "lat": 33.9888,
+        "lon": -98.491898,
+        "late_pct": 14.6,
+        "count": 712
+    },
+    {
+        "airport_code": "SRQ",
+        "airport_name": "Sarasota Bradenton International Airport",
+        "lat": 27.395399,
+        "lon": -82.554398,
+        "late_pct": 18.4,
+        "count": 15678
+    },
+    {
+        "airport_code": "STC",
+        "airport_name": "Saint Cloud Regional Airport",
+        "lat": 45.5466,
+        "lon": -94.059898,
+        "late_pct": 16.3,
+        "count": 147
+    },
+    {
+        "airport_code": "STL",
+        "airport_name": "St Louis Lambert International Airport",
+        "lat": 38.748697,
+        "lon": -90.370003,
+        "late_pct": 20.1,
+        "count": 67531
+    },
+    {
+        "airport_code": "STS",
+        "airport_name": "Charles M. Schulz Sonoma County Airport",
+        "lat": 38.50899887,
+        "lon": -122.8130035,
+        "late_pct": 17.2,
+        "count": 4324
+    },
+    {
+        "airport_code": "STT",
+        "airport_name": "Cyril E. King Airport",
+        "lat": 18.337091,
+        "lon": -64.977251,
+        "late_pct": 21.4,
+        "count": 5389
+    },
+    {
+        "airport_code": "STX",
+        "airport_name": "Henry E Rohlsen Airport",
+        "lat": 17.7019004822,
+        "lon": -64.7985992432,
+        "late_pct": 25.4,
+        "count": 1179
+    },
+    {
+        "airport_code": "SUN",
+        "airport_name": "Friedman Memorial Airport",
+        "lat": 43.50439835,
+        "lon": -114.2959976,
+        "late_pct": 12.4,
+        "count": 2267
+    },
+    {
+        "airport_code": "SUX",
+        "airport_name": "Sioux Gateway Airport \/ Brigadier General Bud Day Field",
+        "lat": 42.397605,
+        "lon": -96.382237,
+        "late_pct": 17.8,
+        "count": 715
+    },
+    {
+        "airport_code": "SWF",
+        "airport_name": "New York Stewart International Airport",
+        "lat": 41.504101,
+        "lon": -74.104797,
+        "late_pct": 23.3,
+        "count": 417
+    },
+    {
+        "airport_code": "SWO",
+        "airport_name": "Stillwater Regional Airport",
+        "lat": 36.1612014771,
+        "lon": -97.0857009888,
+        "late_pct": 12.6,
+        "count": 713
+    },
+    {
+        "airport_code": "SYR",
+        "airport_name": "Syracuse Hancock International Airport",
+        "lat": 43.1111984253,
+        "lon": -76.106300354,
+        "late_pct": 15.6,
+        "count": 16197
+    },
+    {
+        "airport_code": "TLH",
+        "airport_name": "Tallahassee Regional Airport",
+        "lat": 30.3965,
+        "lon": -84.350304,
+        "late_pct": 16.1,
+        "count": 6704
+    },
+    {
+        "airport_code": "TOL",
+        "airport_name": "Eugene F. Kranz Toledo Express Airport",
+        "lat": 41.5868,
+        "lon": -83.8078,
+        "late_pct": 25.1,
+        "count": 370
+    },
+    {
+        "airport_code": "TPA",
+        "airport_name": "Tampa International Airport",
+        "lat": 27.9755001068,
+        "lon": -82.533203125,
+        "late_pct": 20.8,
+        "count": 76339
+    },
+    {
+        "airport_code": "TRI",
+        "airport_name": "Tri-Cities Regional TN\/VA Airport",
+        "lat": 36.475201,
+        "lon": -82.407401,
+        "late_pct": 13.0,
+        "count": 4241
+    },
+    {
+        "airport_code": "TTN",
+        "airport_name": "Trenton Mercer Airport",
+        "lat": 40.2766990662,
+        "lon": -74.8134994507,
+        "late_pct": 25.0,
+        "count": 1733
+    },
+    {
+        "airport_code": "TUL",
+        "airport_name": "Tulsa International Airport",
+        "lat": 36.1983985901,
+        "lon": -95.8880996704,
+        "late_pct": 14.5,
+        "count": 18782
+    },
+    {
+        "airport_code": "TUS",
+        "airport_name": "Tucson International Airport \/ Morris Air National Guard Base",
+        "lat": 32.115004,
+        "lon": -110.938053,
+        "late_pct": 15.2,
+        "count": 19409
+    },
+    {
+        "airport_code": "TVC",
+        "airport_name": "Cherry Capital Airport",
+        "lat": 44.7414016724,
+        "lon": -85.5821990967,
+        "late_pct": 19.6,
+        "count": 5332
+    },
+    {
+        "airport_code": "TWF",
+        "airport_name": "Joslin Field Magic Valley Regional Airport",
+        "lat": 42.4818,
+        "lon": -114.487999,
+        "late_pct": 5.7,
+        "count": 698
+    },
+    {
+        "airport_code": "TXK",
+        "airport_name": "Texarkana Regional Webb Field",
+        "lat": 33.4537010193,
+        "lon": -93.9909973145,
+        "late_pct": 18.2,
+        "count": 714
+    },
+    {
+        "airport_code": "TYR",
+        "airport_name": "Tyler Pounds Regional Airport",
+        "lat": 32.3540992737,
+        "lon": -95.4023971558,
+        "late_pct": 18.3,
+        "count": 1058
+    },
+    {
+        "airport_code": "TYS",
+        "airport_name": "McGhee Tyson Airport",
+        "lat": 35.811001,
+        "lon": -83.994003,
+        "late_pct": 15.4,
+        "count": 19513
+    },
+    {
+        "airport_code": "USA",
+        "airport_name": "Concord-Padgett Regional Airport",
+        "lat": 35.387798,
+        "lon": -80.709099,
+        "late_pct": 30.9,
+        "count": 685
+    },
+    {
+        "airport_code": "VCT",
+        "airport_name": "Victoria Regional Airport",
+        "lat": 28.8526000977,
+        "lon": -96.9185028076,
+        "late_pct": 14.6,
+        "count": 618
+    },
+    {
+        "airport_code": "VEL",
+        "airport_name": "Vernal Regional Airport",
+        "lat": 40.4408989,
+        "lon": -109.5100021,
+        "late_pct": 9.6,
+        "count": 52
+    },
+    {
+        "airport_code": "VLD",
+        "airport_name": "Valdosta Regional Airport",
+        "lat": 30.7824993134,
+        "lon": -83.2767028809,
+        "late_pct": 13.5,
+        "count": 763
+    },
+    {
+        "airport_code": "VPS",
+        "airport_name": "Destin-Fort Walton Beach Airport",
+        "lat": 30.4832,
+        "lon": -86.525398,
+        "late_pct": 18.5,
+        "count": 9760
+    },
+    {
+        "airport_code": "WRG",
+        "airport_name": "Wrangell Airport",
+        "lat": 56.48429871,
+        "lon": -132.3699951,
+        "late_pct": 12.5,
+        "count": 710
+    },
+    {
+        "airport_code": "WYS",
+        "airport_name": "Yellowstone Airport",
+        "lat": 44.68840027,
+        "lon": -111.1179962,
+        "late_pct": 12.9,
+        "count": 309
+    },
+    {
+        "airport_code": "XNA",
+        "airport_name": "Northwest Arkansas Regional Airport",
+        "lat": 36.281898,
+        "lon": -94.306801,
+        "late_pct": 16.2,
+        "count": 15085
+    },
+    {
+        "airport_code": "XWA",
+        "airport_name": "Williston Basin International Airport",
+        "lat": 48.258387,
+        "lon": -103.748797,
+        "late_pct": 16.8,
+        "count": 1937
+    },
+    {
+        "airport_code": "YAK",
+        "airport_name": "Yakutat Airport",
+        "lat": 59.508717,
+        "lon": -139.660435,
+        "late_pct": 14.6,
+        "count": 699
+    },
+    {
+        "airport_code": "YKM",
+        "airport_name": "Yakima Air Terminal McAllister Field",
+        "lat": 46.56819916,
+        "lon": -120.5439987,
+        "late_pct": 10.3,
+        "count": 717
+    },
+    {
+        "airport_code": "YUM",
+        "airport_name": "Yuma International Airport \/ Marine Corps Air Station Yuma",
+        "lat": 32.656601,
+        "lon": -114.606003,
+        "late_pct": 11.4,
+        "count": 1712
+    }
+]
