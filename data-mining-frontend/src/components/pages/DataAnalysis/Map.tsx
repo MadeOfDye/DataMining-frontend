@@ -59,6 +59,10 @@ export function Map() {
         return "rgba(189, 32, 32, 0.4)"
     }
 
+    const widthByCount = (count: any) => {
+        return Math.log10(count);
+    }
+
 
     //console.log(filterId)
 
@@ -67,22 +71,24 @@ export function Map() {
   return (
     <div className="pl-10 border-b-2 border-black">
       <h2 className="text-2xl font-bold text-center py-3 pb-5 " >Map Explorer</h2>
-      <div className="flex">
-        <div className="bg-gray-300 flex-1 ">
-          <div className="p-3">
+      <div className="flex gap-4">
+        <div className="bg-gray-600 flex-1 rounded-md  ">
+          <div className="p-3 ">
             { selectedAirport != null ? (
               <>
-              <h2 className="font-bold text-xl text-center mb-2">{selectedAirport?.airport_name} </h2> 
-              <h3 className="text-lg">Code: {selectedAirport?.airport_code}</h3>
-              <h3 className="text-lg">
-                No. of Destinations: { current_destination_count }
-              </h3>
-              <h3 className="text-lg">
-                Late Flights: { selectedAirport.late_pct }%
-              </h3>
-              <label className="text-lg"> Sort by </label>
+              <span className="text-gray-200">
+                <h2 className="font-bold text-xl text-center mb-2">{selectedAirport?.airport_name} </h2> 
+                <h3 className="text-lg">Code: {selectedAirport?.airport_code}</h3>
+                <h3 className="text-lg">
+                  No. of Destinations: { current_destination_count.toLocaleString() }
+                </h3>
+                <h3 className="text-lg ">
+                  Late Flights: { selectedAirport.late_pct }%
+                </h3>
+              </span>
+              <label className="text-lg text-gray-200"> Sort by </label>
               <select id="filters" className="bg-white ml-1" onChange={(event)=>setSelectedFilter(event.target.value)}>
-                  <option value="airport">Airport</option>
+                  <option value="airport">Code</option>
                   <option value="count">Count</option>
                   <option value="late">Late %</option>
               </select>
@@ -112,7 +118,7 @@ export function Map() {
                           {row.dest}
                         </button>
                       </td>
-                      <td className="p-0.5 pl-3 border-r-2 border-gray-400">{row.count}</td>
+                      <td className="p-0.5 pl-3 border-r-2 border-gray-400 text-right pr-3">{row.count.toLocaleString()}</td>
                       <td className="p-0.5 pl-3 text-right pr-3">{ row.late_pct }%</td>
                     </tr>)
                   })}
@@ -121,10 +127,10 @@ export function Map() {
               </div>
                 
               </>
-            ) : <span className="font-bold">Please click on an airport</span>}
+            ) : <span className="font-bold text-gray-200">Please click on an airport in the map</span>}
           </div>
         </div>
-        <svg viewBox="0 0 975 610" className="bg-red-200 flex-4 h-200">
+        <svg viewBox="0 0 975 610" className="bg-gray-600 flex-4 h-200 rounded-md">
           <g fill="lightgrey" stroke="white" strokeWidth="1">
             {states.map((state: GeoPermissibleObjects) => (
               <path d={pathGenerator(state) as any} />
@@ -132,24 +138,34 @@ export function Map() {
           </g>
           <g>
             {
-              current_airports.map((line)=>{
+              current_airports.reverse().map((line)=>{
+
+                let [x1, y1] = map_projection([line.origin_lon, line.origin_lat]) ?? [0,0];
+                let [x2, y2] = map_projection([line.dest_lon, line.dest_lat]) ?? [0,0];
+
                 return (<line 
-                  x1={map_projection([line.origin_lon, line.origin_lat])?.[0]}
-                  y1={map_projection([line.origin_lon, line.origin_lat])?.[1]}
-                  x2={map_projection([line.dest_lon, line.dest_lat])?.[0]}
-                  y2={map_projection([line.dest_lon, line.dest_lat])?.[1]}
-                  strokeWidth="1.5"
+                  className="flight-tooltip"
+                  data-tooltip-html={line.origin + " -> " + line.dest + " <br/> Flights: " + line.count.toLocaleString() + " <br/> Late: " + line.late_pct + "%"}
+                  
+                  x1={x1}
+                  y1={y1}
+                  x2={x2}
+                  y2={y2}
+                  strokeWidth={widthByCount(line.count)}
                   stroke={colourByLateness(line.late_pct)}
                 />)
               })
             }
             {filtered_airports.map((point) => {
+
+              let [cx, cy] = map_projection([point.lon, point.lat]) ?? [0,0];
+
               return (
                 <>
                   <circle
                     className="airport-point cursor-pointer"
-                    cx={map_projection([point.lon, point.lat])?.[0]}
-                    cy={map_projection([point.lon, point.lat])?.[1]}
+                    cx={cx}
+                    cy={cy}
                     data-tooltip-content={point.airport_name}
                     onClick={()=>{setSelectedAirport(point)}}
                     r={point == selectedAirport ? "2.5" : "2"}
@@ -163,6 +179,7 @@ export function Map() {
         </svg>
         
         <Tooltip anchorSelect=".airport-point" place="top" />
+        <Tooltip anchorSelect=".flight-tooltip" float={true} />
         <br></br>
         <br></br>
       </div>
