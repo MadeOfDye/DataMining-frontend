@@ -21,7 +21,7 @@ export function Datasets() {
                 </thead>
                 <tbody>
                 {item.columns?.map((row: any)=>{
-                  return  (<tr className="odd:bg-white even:bg-gray-200">
+                  return  (<tr className="odd:bg-white even:bg-gray-200" key={row.name}>
                     <td className="p-0.5 pl-3 border-r-2 border-gray-400 ">{row.name}</td>
                     <td className="p-0.5 pl-3 border-r-2 border-gray-400">{row.desc}</td>
                     <td className="p-0.5 pl-3">{row.example}</td>
@@ -54,7 +54,7 @@ export function Datasets() {
                 </thead>
                 <tbody>
                 {item.columns?.map((row: any)=>{
-                  return  (<tr className="odd:bg-white even:bg-gray-200">
+                  return  (<tr className="odd:bg-white even:bg-gray-200" key={row.name} >
                     <td className="p-0.5 pl-3 border-r-2 border-gray-400 ">{row.name}</td>
                     <td className="p-0.5 pl-3 border-r-2 border-gray-400">{row.desc}</td>
                     <td className="p-0.5 pl-3 border-r-2 border-gray-400">{row.example}</td>
@@ -80,12 +80,12 @@ export function Datasets() {
       <Tabs>
         <TabList>
           {Datasets_Data.map((item) => (
-            <Tab>{item.tabName}</Tab>
+            <Tab key={item.tabName}>{item.tabName}</Tab>
           ))}
         </TabList>
 
         {Datasets_Data.map((item) => (
-          <TabPanel>
+          <TabPanel key={item.tabName}>
 
             { item.type == "Source" ? render_source_table(item) : render_final_table(item)}
 

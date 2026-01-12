@@ -19,6 +19,7 @@ export function Map() {
     usaMapData.objects.states as any
   ) as any).features;
 
+
   const map_projection = geoAlbersUsa();
   const pathGenerator = geoPath().projection(map_projection);
 
@@ -63,13 +64,8 @@ export function Map() {
         return Math.log10(count);
     }
 
-
-    //console.log(filterId)
-
-    
-
   return (
-    <div className="pl-10 border-b-2 border-black">
+    <div className="pl-10 pb-5">
       <h2 className="text-2xl font-bold text-center py-3 pb-5 " >Map Explorer</h2>
       <div className="flex gap-4">
         <div className="bg-gray-600 flex-1 rounded-md  ">
@@ -109,7 +105,8 @@ export function Map() {
                   </thead>
                   <tbody>
                   {current_airports.map((row: any)=>{
-                    return  (<tr className="odd:bg-white even:bg-gray-200">
+                    
+                    return  (<tr className="odd:bg-white even:bg-gray-200" key={row.origin + row.dest}>
                       <td className="p-0.5 p-2 border-r-2 border-gray-400">
                         <button 
                           className="font-semibold rounded-sm bg-blue-200 w-full cursor-pointer hover:bg-blue-300" 
@@ -133,7 +130,7 @@ export function Map() {
         <svg viewBox="0 0 975 610" className="bg-gray-600 flex-4 h-200 rounded-md">
           <g fill="lightgrey" stroke="white" strokeWidth="1">
             {states.map((state: GeoPermissibleObjects) => (
-              <path d={pathGenerator(state) as any} />
+              <path d={pathGenerator(state) as any} key={(state as any).id} />
             ))}
           </g>
           <g>
@@ -146,6 +143,7 @@ export function Map() {
                 return (<line 
                   className="flight-tooltip"
                   data-tooltip-html={line.origin + " -> " + line.dest + " <br/> Flights: " + line.count.toLocaleString() + " <br/> Late: " + line.late_pct + "%"}
+                  key={line.origin + line.dest}
                   
                   x1={x1}
                   y1={y1}
@@ -161,7 +159,6 @@ export function Map() {
               let [cx, cy] = map_projection([point.lon, point.lat]) ?? [0,0];
 
               return (
-                <>
                   <circle
                     className="airport-point cursor-pointer"
                     cx={cx}
@@ -170,8 +167,9 @@ export function Map() {
                     onClick={()=>{setSelectedAirport(point)}}
                     r={point == selectedAirport ? "2.5" : "2"}
                     fill={point == selectedAirport ? "blue" : "red"}
+                    key={point.airport_name}
+
                   />
-                </>
               );
             })}
 
