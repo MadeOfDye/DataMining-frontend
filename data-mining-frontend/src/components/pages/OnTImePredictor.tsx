@@ -6,7 +6,9 @@ import { FlightSearchForm } from "@/components/pages/FlightSearchForm"
 import { FlightDetails } from "@/components/pages/FlightDetails"
 import type { Flight } from "../../domain/Flight"
 
-export function OnTimePredictor() {
+
+
+export function OnTimePredictor({ setPage }: { setPage: (index: number) => void }) {
   const mutation = useMutation<Flight, Error, ScoreFlightParams>({
     mutationFn: scoreFlight,
   })
@@ -20,20 +22,20 @@ export function OnTimePredictor() {
 
           {/* Tab Navigation */}
           <div className="flex gap-12 border-b-4 border-black pb-4">
-            <button className="text-xl font-bold italic border-b-4 border-black pb-1">On-Time Predictor</button>
-            <button className="text-xl font-bold italic text-gray-600">Model Comparison</button>
-            <button className="text-xl font-bold italic text-gray-600">Data Analysis</button>
-            <button className="text-xl font-bold italic text-gray-600">Training</button>
+            <button className="text-xl font-bold italic border-b-4 border-black pb-1 hover:text-black cursor-pointer" onClick={()=>{setPage(1)}}>On-Time Predictor</button>
+            <button className="text-xl font-bold italic text-gray-600 hover:text-black cursor-pointer" onClick={()=>{setPage(2)}} >Model Comparison</button>
+            <button className="text-xl font-bold italic text-gray-600 hover:text-black cursor-pointer" onClick={()=>{setPage(3)}}>Data Analysis</button>
           </div>
         </div>
 
         {/* Main Content */}
         <div className="flex gap-8 p-8">
+
           <FlightSearchForm onSubmit={mutation.mutate} isLoading={mutation.isPending} />
 
           {mutation.data && <FlightDetails flight={mutation.data} />}
 
-          {mutation.error && <div className="text-red-500 flex-1">Error: {mutation.error.message}</div>}
+          {mutation.error && <div className="text-red-500 flex-1">Error: {(mutation.error as any).status == 404 ? "Flight could not be found" : mutation.error.message}</div>}
         </div>
       </div>
     </div>
