@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import { OnTimePredictor } from "./components/pages/OnTImePredictor"
+import { ModelComparison } from "./components/pages/ModelComparison"
 import { DataAnalysis } from "./components/pages/DataAnalysis/DataAnalysis"
 import "./globals.css"
 
@@ -16,7 +17,10 @@ export default function App() {
 
   if (currentPageIndex == 1) {
     currentPage = <OnTimePredictor setPage={setCurrentPageIndex}/>
-  } else {
+  } else if (currentPageIndex == 2) {
+    currentPage = <ModelComparison setPage={setCurrentPageIndex}/>
+  }
+    else if (currentPageIndex == 3) {
     currentPage = <DataAnalysis setPage={setCurrentPageIndex}/>
   }
 
