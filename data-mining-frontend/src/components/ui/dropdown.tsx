@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils"
 
 export const DropdownSelect = ({ className, ...props }: React.ComponentProps<"select">) => {
 
-    const options = ["KNN", "RFC"] // HARD-CODED
+    const options = ["RFC", "MLP", "LGBM", "GB"] // HARD-CODED
 
     return (
         <select 
