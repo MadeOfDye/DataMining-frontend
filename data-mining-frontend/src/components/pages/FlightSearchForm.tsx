@@ -4,6 +4,7 @@ import type React from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { DropdownSelect } from "@/components/ui/dropdown"
 import type { ScoreFlightParams } from "@/api/flights"
 
 interface Props {
@@ -36,7 +37,14 @@ export function FlightSearchForm({ onSubmit, isLoading }: Props) {
         <Label htmlFor="model" className="text-base italic">
           ML Model
         </Label>
-        <Input name="model" id="model" placeholder="knn_v1" required className="border-2 border-black rounded-none" />
+        <DropdownSelect name="model" id="model" required className="border-2 border-black rounded-none" />
+      </div>
+
+      <div className="space-y-2">
+        <Label htmlFor="airline" className="text-base italic">
+          Airline Code
+        </Label>
+        <Input name="airline" id="airline" placeholder="AA" required className="border-2 border-black rounded-none" />
       </div>
 
       <div className="space-y-2">
@@ -46,17 +54,10 @@ export function FlightSearchForm({ onSubmit, isLoading }: Props) {
         <Input
           name="flight_number"
           id="flight_number"
-          placeholder="2151"
+          placeholder="4776"
           required
           className="border-2 border-black rounded-none"
         />
-      </div>
-
-      <div className="space-y-2">
-        <Label htmlFor="airline" className="text-base italic">
-          Airline
-        </Label>
-        <Input name="airline" id="airline" placeholder="AA" required className="border-2 border-black rounded-none" />
       </div>
 
       <div className="space-y-2">
@@ -69,6 +70,7 @@ export function FlightSearchForm({ onSubmit, isLoading }: Props) {
           id="flight_date"
           required
           className="border-2 border-black rounded-none"
+          defaultValue="2025-01-01" 
         />
       </div>
 
@@ -76,7 +78,7 @@ export function FlightSearchForm({ onSubmit, isLoading }: Props) {
         <Label htmlFor="dep_time" className="text-base italic">
           Time
         </Label>
-        <Input type="time" name="dep_time" id="dep_time" required className="border-2 border-black rounded-none" />
+        <Input type="time" name="dep_time" id="dep_time" required className="border-2 border-black rounded-none" defaultValue="10:00" />
       </div>
 
       <Button
