@@ -64,4 +64,6 @@ export interface Flight {
   dest_wind_speed: number
 
   prediction?: string
+
+  historical_lateness: number
 }

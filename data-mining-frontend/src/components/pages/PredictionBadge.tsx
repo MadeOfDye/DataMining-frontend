@@ -4,7 +4,7 @@ interface PredictionBadgeProps {
 
 export function PredictionBadge({ prediction }: PredictionBadgeProps) {
   const isLate = prediction === "LATE"
-  const isOnTime = prediction === "ON_TIME"
+  const isOnTime = prediction === "ON-TIME"
 
   let bgColor = "bg-gray-400"
   let textColor = "text-black"
@@ -20,7 +20,7 @@ export function PredictionBadge({ prediction }: PredictionBadgeProps) {
 
   return (
     <div
-      className={`px-12 py-6 border-4 border-black ${bgColor} ${textColor} font-bold text-4xl text-center rounded-lg`}
+      className={`px-12 py-2 border-4 border-black ${bgColor} ${textColor} font-bold text-4xl text-center rounded-lg`}
     >
       {prediction}
     </div>
