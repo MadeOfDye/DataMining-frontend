@@ -56,7 +56,7 @@ export function FlightDetails({ flight }: FlightDetailsProps) {
       <div className="flex items-start justify-between gap-8 bg-gray-300 p-3 rounded-md">
         <div className="space-y-2">
           <div className="flex items-baseline gap-8">
-            <h2 className="text-6xl font-bold">{flight.airline_network}{flight.flight_number_airline}</h2>
+            <h2 className="text-4xl font-bold">{flight.airline_network}{flight.flight_number_airline}</h2>
 
           </div>
           <p className="text-xl italic">
