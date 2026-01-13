@@ -56,3 +56,16 @@ export const Data_DelayedDayOfWeek = [
   { DAYOFWEEK: "Sun", IS_LATE: false, count: 859793 },
   { DAYOFWEEK: "Sun", IS_LATE: true, count: 236715 },
 ];
+
+export const Data_AirlineDelayed = [
+  { "AIRLINE_NAME": "Alaska", "LATE": 80654, "COUNT": 397810, "LATE_PCT": 0.202745029 }
+  , { "AIRLINE_NAME": "Allegiant", "LATE": 24206, "COUNT": 114882, "LATE_PCT": 0.2107031563 }
+  , { "AIRLINE_NAME": "American", "LATE": 414398, "COUNT": 1877407, "LATE_PCT": 0.2207289096 }
+  , { "AIRLINE_NAME": "Delta", "LATE": 248683, "COUNT": 1521593, "LATE_PCT": 0.1634359517 }
+  , { "AIRLINE_NAME": "Frontier", "LATE": 57048, "COUNT": 203482, "LATE_PCT": 0.2803589507 }
+  , { "AIRLINE_NAME": "Hawaiian", "LATE": 11293, "COUNT": 77633, "LATE_PCT": 0.1454664898 }
+  , { "AIRLINE_NAME": "JetBlue", "LATE": 58637, "COUNT": 235683, "LATE_PCT": 0.2487960523 }
+  , { "AIRLINE_NAME": "Southwest", "LATE": 278523, "COUNT": 1404597, "LATE_PCT": 0.1982938879 }
+  , { "AIRLINE_NAME": "Spirit", "LATE": 59413, "COUNT": 255633, "LATE_PCT": 0.2324152203 }
+  , { "AIRLINE_NAME": "United", "LATE": 249021, "COUNT": 1336509, "LATE_PCT": 0.1863219776 }
+]

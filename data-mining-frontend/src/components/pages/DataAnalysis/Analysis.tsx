@@ -1,5 +1,5 @@
 import { PieDelayed } from "./Charts/PieDelayed";
-import { BarDelayedDayOfWeek, BarDelayedMonthly } from "./Charts/BarDelayed";
+import { BarDelayedDayOfWeek, BarDelayedMonthly, BarAirlineDelayed } from "./Charts/BarDelayed";
 
 export function Analysis() {
 
@@ -16,6 +16,9 @@ export function Analysis() {
         </div>
         <div className="bg-gray-300 p-2 rounded-md">
           <BarDelayedDayOfWeek />
+        </div>
+        <div className="bg-gray-300 p-2 rounded-md">
+          <BarAirlineDelayed />
         </div>
       </div>
       <span className="text-xs italic" >

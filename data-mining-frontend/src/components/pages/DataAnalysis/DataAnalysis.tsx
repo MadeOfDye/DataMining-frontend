@@ -5,7 +5,7 @@ import { Map } from "./Map";
 
 export function DataAnalysis({ setPage }: { setPage: (index: number) => void }) {
   return (
-    <span className="font-[Inter]">
+    <span>
       <Header setPage={setPage}/>
       <Datasets />
       <Analysis />

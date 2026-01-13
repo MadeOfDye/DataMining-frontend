@@ -141,7 +141,7 @@ export function Map() {
                 let [x2, y2] = map_projection([line.dest_lon, line.dest_lat]) ?? [0,0];
 
                 return (<line 
-                  className="flight-tooltip"
+                  className="flight-tooltip outline-0"
                   data-tooltip-html={line.origin + " -> " + line.dest + " <br/> Flights: " + line.count.toLocaleString() + " <br/> Late: " + line.late_pct + "%"}
                   key={line.origin + line.dest}
                   

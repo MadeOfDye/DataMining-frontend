@@ -53,13 +53,13 @@ export function ModelComparison({ setPage }: { setPage: (index: number) => void 
                     <tbody>
                         <tr className="">
                             <td className="p-0.5 pl-3 bg-gray-400 font-bold ">OT</td>
-                            <td className="p-0.5 pl-3 border-r-2 border-gray-400 bg-green-200 text-right pr-3 text-xl">{model.tp}</td>
-                            <td className="p-0.5 pl-3 bg-red-200 text-right pr-3 text-xl">{model.fp}</td>
+                            <td className="p-0.5 pl-3 border-r-2 border-gray-400 bg-green-200 text-right pr-3 text-xl">{model.tn}</td>
+                            <td className="p-0.5 pl-3 bg-red-200 text-right pr-3 text-xl">{model.fn}</td>
                         </tr>
                         <tr className="">
                             <td className="p-0.5 pl-3 bg-gray-400 font-bold">Late</td>
-                            <td className="p-0.5 pl-3 border-r-2 border-gray-400 bg-red-200 text-right pr-3 text-xl">{model.fn}</td>
-                            <td className="p-0.5 pl-3 bg-green-200 text-right pr-3 text-xl">{model.tn}</td>
+                            <td className="p-0.5 pl-3 border-r-2 border-gray-400 bg-red-200 text-right pr-3 text-xl">{model.fp}</td>
+                            <td className="p-0.5 pl-3 bg-green-200 text-right pr-3 text-xl">{model.tp}</td>
                         </tr>
 
                     </tbody>
@@ -110,7 +110,7 @@ export function ModelComparison({ setPage }: { setPage: (index: number) => void 
         return (
             <div className="bg-gray-300 p-5 m-2 flex-1 rounded-sm">
                 <h2 className="text-gray-600 font-bold italic">Feature Importance</h2>
-                <div className=" flex-1 h-45 overflow-y-auto">
+                <div className=" flex-1 h-45 overflow-y-auto overflow-x-hidden">
                     <table className="table-auto w-full p-5">
                         <thead className="sticky top-0">
                             <tr className="bg-gray-400">
