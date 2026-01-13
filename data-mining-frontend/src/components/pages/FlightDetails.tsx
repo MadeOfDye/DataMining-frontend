@@ -45,7 +45,7 @@ export function FlightDetails({ flight }: FlightDetailsProps) {
     else
       return (
         <>
-          {flight.manufacturer} {flight.plane_model} ({plane_age <= 60 && plane_age + " years old"})
+          {flight.manufacturer} {flight.plane_model} {plane_age <= 60 && "(" + plane_age + " years old)"}
         </>
       )
   }
@@ -98,8 +98,8 @@ export function FlightDetails({ flight }: FlightDetailsProps) {
 
         {/* Prediction */}
         <div className="space-y-1 bg-gray-300 p-3 rounded-md">
-          <h4 className="font-bold text-xl mb-3 italic">Prediction</h4>
-          <PredictionBadge prediction={flight.prediction || "UNKNOWN"} />
+          
+          <PredictionBadge prediction={flight.prediction || "UNKNOWN"} actual_delay={flight.arr_delay > 15} />
         </div>
       </div>
 
