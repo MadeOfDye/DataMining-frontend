@@ -7,7 +7,17 @@ interface FlightDetailsProps {
 
 export function FlightDetails({ flight }: FlightDetailsProps) {
   const formatDate = (dateString: string) => {
-    return dateString.slice(0,16)
+
+    let date_format: any = {
+      day:"2-digit",
+      month: "short",
+      year: "2-digit",
+      hour:"2-digit",
+      minute: "2-digit",
+      hour12: true,
+    }
+
+    return new Date(dateString).toLocaleString('en-GB',  date_format)
   }
 
   const Temp = ({ origin_dest }: { origin_dest: string }) => {
@@ -97,7 +107,8 @@ export function FlightDetails({ flight }: FlightDetailsProps) {
       <div className="space-y-1 bg-gray-300 p-3 rounded-md">
         <h4 className="font-bold text-xl mb-2 italic">Statistics</h4>
         <p className="text-lg">
-          Duration: {Math.floor(flight.crs_elapsed_time / 60)}h{Math.round(flight.crs_elapsed_time % 60)}m
+          Estimated Duration: {flight.crs_elapsed_time < 60 || Math.floor(flight.crs_elapsed_time / 60).toString() + "h"}
+          {flight.crs_elapsed_time % 60 == 0 || Math.round(flight.crs_elapsed_time % 60).toString() + "m"}
         </p>
         <p className="text-lg">
           Distance: {flight.distance.toLocaleString()}km
