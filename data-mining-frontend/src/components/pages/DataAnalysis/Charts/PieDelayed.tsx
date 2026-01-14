@@ -25,7 +25,7 @@ export function PieDelayed() {
               plugins: {
                 title: {
                   display: true,
-                  text: "Flight Statuses",
+                  text: "Flight Status",
                   font: {
                     size: 16,
                   },

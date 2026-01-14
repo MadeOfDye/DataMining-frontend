@@ -1,5 +1,5 @@
 import Chart from "chart.js/auto";
-import { Data_DelayedMonthly, Data_DelayedDayOfWeek, Data_AirlineDelayed } from "../../../../data/charts";
+import { Data_DelayedMonthly, Data_DelayedDayOfWeek, Data_AirlineDelayed, Data_DelayedHour, Data_AircraftAge } from "../../../../data/charts";
 import { Bar } from "react-chartjs-2";
 import ChartjsPluginStacked100 from "chartjs-plugin-stacked100";
 
@@ -61,7 +61,7 @@ export function BarDelayedMonthly() {
                   },
                   title: {
                     display: true,
-                    text: "Percentage of Flights",
+                    text: "% of Flights",
                     //font: { style: "italic" },
                     font: {
                       size: 14,
@@ -84,7 +84,7 @@ export function BarDelayedMonthly() {
                 stacked100: { enable: true },
                 title: {
                   display: true,
-                  text: "Percent of Delayed Flights by Month",
+                  text: "Delayed Flights by Month",
                   font: {
                     size: 16,
                   },
@@ -135,7 +135,7 @@ export function BarDelayedDayOfWeek() {
                   },
                   title: {
                     display: true,
-                    text: "Percentage of Flights",
+                    text: "% of Flights",
                     //font: { style: "italic" },
                     font: {
                       size: 14,
@@ -146,7 +146,7 @@ export function BarDelayedDayOfWeek() {
                   stacked: true,
                   title: {
                     display: true,
-                    text: "Months",
+                    text: "Day of Week",
                     font: {
                       size: 14,
                     },
@@ -158,7 +158,7 @@ export function BarDelayedDayOfWeek() {
                 stacked100: { enable: true },
                 title: {
                   display: true,
-                  text: "Percent of Delayed Flights by Day",
+                  text: "Delayed Flights by Day",
                   font: {
                     size: 16,
                   },
@@ -210,7 +210,7 @@ export function BarAirlineDelayed() {
                   },
                   title: {
                     display: true,
-                    text: "Percentage of Flights",
+                    text: "% of Flights",
                     font: {
                       size: 14,
                     },
@@ -232,7 +232,7 @@ export function BarAirlineDelayed() {
                 stacked100: { enable: true },
                 title: {
                   display: true,
-                  text: "Percent of Delayed Flights by Airline",
+                  text: "Delayed Flights by Airline",
                   font: {
                     size: 16,
                   },
@@ -242,3 +242,158 @@ export function BarAirlineDelayed() {
           />)
 
 }
+
+
+export function BarHourDelayed() {
+
+  const data = Data_DelayedHour
+
+  const bar = {
+      labels: data.map((val)=>val.HOUR),
+      datasets: [
+        {
+          label: "Delayed",
+          data: data.map(
+            (item) => item.LATE
+          ),
+          borderWidth: 1,
+          backgroundColor: "#ff6161",
+        },
+        {
+          label: "On-Time",
+          data: data.map (
+            (item) => item.COUNT - item.LATE
+          ),
+          borderWidth: 1,
+          backgroundColor: "#5acc78",
+        },
+      ],
+    };
+
+    return(<Bar
+            data={bar}
+            width={300}
+            height={300}
+            options={{
+              maintainAspectRatio: true,
+              indexAxis: "x",
+              scales: {
+                x: {
+                  stacked: true,
+                  
+                  title: {
+                    display: true,
+                    text: "Hour",
+                    font: {
+                      size: 14,
+                    },
+                  },
+                },
+                y: {
+                  stacked: true,
+                  ticks: {
+                    callback: (label) => label + "%",
+                  },
+                  title: {
+                    display: true,
+                    text: "% of Flights",
+                    font: {
+                      size: 14,
+                    },
+                    //font: { style: "italic" },
+                  },
+                },
+              },
+              plugins: {
+                stacked100: { enable: true },
+                title: {
+                  display: true,
+                  text: "Delayed Flights by Hour",
+                  font: {
+                    size: 16,
+                  },
+                },
+              },
+            }}
+          />)
+
+}
+
+
+
+
+export function BarAircraftAge() {
+
+  const data = Data_AircraftAge
+
+
+  const bar = {
+      labels: data.map((val)=>val.AIRCRAFT_AGE),
+      datasets: [
+        {
+          label: "Delayed",
+          data: data.map(
+            (item) => item.COUNT
+          ),
+          borderWidth: 1,
+          backgroundColor: "#ff6161",
+        },
+        {
+          label: "On-Time",
+          data: data.map (
+            (item) => item.COUNT - item.LATE
+          ),
+          borderWidth: 1,
+          backgroundColor: "#5acc78",
+        },
+      ],
+    };
+
+    return(<Bar
+            data={bar}
+            width={300}
+            height={300}
+            options={{
+              maintainAspectRatio: true,
+              indexAxis: "x",
+              scales: {
+                x: {
+                  stacked: true,
+                  
+                  title: {
+                    display: true,
+                    text: "Age",
+                    font: {
+                      size: 14,
+                    },
+                  },
+                },
+                y: {
+                  stacked: true,
+                  
+                  title: {
+                    display: true,
+                    text: "Flights",
+                    font: {
+                      size: 14,
+                    },
+                    //font: { style: "italic" },
+                  },
+                },
+              },
+              plugins: {
+                
+                title: {
+                  display: true,
+                  text: "Flight Delays by Aircraft Age",
+                  font: {
+                    size: 16,
+                  },
+                },
+              },
+            }}
+          />)
+
+}
+
+

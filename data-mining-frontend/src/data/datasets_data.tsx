@@ -398,7 +398,42 @@ export const Datasets_Data = [
           missing_count: 16769,
           source: "Weather",
         },
-        { name: "IS_LATE", desc: "Aircraft arrives more than 15 minutes late?", example: "False", missing_count: 0, source: "Weather" },
+        {
+          name: "DAY_SIN",
+          desc: "Cyclical encoding of Day of the Week",
+          example: "2.449294e-16",
+          missing_count: 0,
+          source: "Flights, Feature Engineered",
+        },
+        {
+          name: "DAY_COS",
+          desc: "Cyclical encoding of Day of the Week",
+          example: "-0.900969",
+          missing_count: 0,
+          source: "Flights, Feature Engineered",
+        },
+        {
+          name: "FLIGHT_SEQ",
+          desc: "Count of previous flights that day",
+          example: 3,
+          missing_count: 0,
+          source: "Flights, Feature Engineered",
+        },
+        {
+          name: "PREV_F_DELAY",
+          desc: "Was the plane's previous flight delayed",
+          example: 1,
+          missing_count: 0,
+          source: "Flights, Aircraft, Feature Engineered",
+        },
+        {
+          name: "HISTORICAL_LATENESS",
+          desc: "Window function of % of previous delays on a route",
+          example: 0.12,
+          missing_count: 0,
+          source: "Flights, Feature Engineered",
+        },
+        { name: "IS_LATE", desc: "Aircraft arrives more than 15 minutes late?", example: 1, missing_count: 0, source: "Flights" },
       ]
     },
 ];
